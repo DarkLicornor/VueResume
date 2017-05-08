@@ -226,4 +226,32 @@ h6 {
 p, td {
   font-family: comfortaa, sans-serif;
 }
+
+/*Small screens*/
+@media only screen and (max-width : 1024px) {
+  #experience {
+    width: 100%;
+  }
+
+  .experienceBlockContainer {
+    width: 100%;
+    margin: 2em;
+  }
+
+  h2 {
+    width: 30%;
+  }
+
+  .comment {
+    width: 60%;
+  }
+
+  .subTitle {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 10em;
+  }
+}
 </style>

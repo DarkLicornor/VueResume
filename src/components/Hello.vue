@@ -2,14 +2,16 @@
   <div id="home">
     <div class="container">
       <div class="info">
-        <p class="bracket"> { </p><br>
-        <p> age : 20, </p><br>
-        <p> name:</p>
-        <h1> "Alexa NOËL", </h1><br>
-        <p> post: </p>
-        <h1>"Computing student", </h1><br>
-        <p>dream: "Be happy" </p><br>
-        <p style="margin-left: 40vw;" class="bracket"> } </p><br>
+        <div class="infoContainer">
+          <p class="bracket1"> { </p><br>
+            <p> age : 20, </p><br>
+            <p> name:</p>
+            <h1> "Alexa NOËL", </h1><br>
+            <p> post: </p>
+            <h1>"Computing student", </h1><br>
+            <p>dream: "Be happy" </p><br>
+          <p class="bracket2"> } </p><br>
+        </div>
       </div>
       <div class="socialMediaLine">
         <a target="_blank" href="https://twitter.com/Alexa_Noel"><img src="../../static/images/twitter.svg"></a>
@@ -27,13 +29,13 @@
         <li v-else><a href="#home">Home</a></li>
         <li v-if="hash == 'about'"><a class="activeLink" href="#about">A propos</a></li>
         <li v-else><a href="#about">A propos</a></li>
-        <li v-if="hash == 'skills'"><a class="activeLink" href="#skills">Skills</a></li>
-        <li v-else><a href="#skills">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#experience">Expérience</a></li>
-        <li v-else><a href="#experience">Expérience</a></li>
+        <li v-if="hash == 'skills'"><a class="activeLink" href="#skills">Compétences</a></li>
+        <li v-else><a href="#skills">Compétences</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#experience">Expériences</a></li>
+        <li v-else><a href="#experience">Expériences</a></li>
         <li v-if="hash == 'activity'"><a class="activeLink" href="#activity">Evénements</a></li>
         <li v-else ><a href="#activity">Evénements</a></li>
-        <li><a target="_blank" href="../../static/cv.pdf">Télécharger CV</a></form></li>
+        <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
       </ul>
     </div>
   </div>
@@ -43,7 +45,9 @@
 export default {
   data () {
     return {
-      hash: 'home'
+      hash: 'home',
+      screenWidth: window.innerWidth,
+      screenHeight: window.innerHeight
     }
   },
   methods: {
@@ -78,6 +82,14 @@ export default {
       } else if (context.isScrolledIntoView(document.getElementById('activity'))) {
         context.hash = 'activity'
       }
+      // this.screenWidth = window.innerWidth ||
+      // document.documentElement.clientWidth ||
+      // document.getElementsByTagName('body')[0].clientWidth
+      // this.screenHeight = window.innerHeight ||
+      // document.documentElement.clientHeight ||
+      // document.getElementsByTagName('body')[0].clientHeight
+      this.screenWidth = window.innerWidth
+      this.screenHeight = window.innerHeigh
     }, 100)
   }
 }
@@ -98,13 +110,24 @@ export default {
 
 .info {
   width: 50%;
-  padding: 1em;
+}
+
+.infoContainer {
+  max-width: 100%;
+  margin: 2em;
+  padding: 0.7em;
+  align-items: center;
 }
 
 .socialMediaLine {
   width: 5em;
   position: absolute;
-  margin: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -112,19 +135,22 @@ export default {
   width: 50%;
   height: 100%;
   display: flex;
+  background: #fff684;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 
 .portrait img {
-  height: 100%;
+  max-height: 100%;
+  width: auto;
 }
 
 p, h1 {
   margin: 0;
   padding: 0;
-  font-size: 3em;
+  font-size: 2.5em;
+  text-align: center;
   padding-left: 1em;
   font-family: 'Arvo', serif;
   display: inline;
@@ -134,16 +160,19 @@ p, h1 {
 
 h1 {
   padding-left: 0;
-  font-size: 3.2em;
+  font-size: 3em;
   color: #fff133;
   white-space: nowrap;
 }
 
-.bracket {
+.bracket1, .bracket2 {
   padding-left: 0em;
   font-size: 5em;
 }
 
+.bracket2 {
+  margin-left: 40vw;
+}
 a {
   display: block;
   text-decoration: none;
@@ -197,4 +226,72 @@ a img {
   list-style-type:none;
 }
 
+/*Small screens*/
+@media only screen and (max-width : 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #14A0C5;
+  }
+
+  .info {
+    height: 50%;
+    width: 100%;
+  }
+
+  .infoContainer {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bracket1 {
+    margin-left: 2em;
+    text-align: left;
+  }
+
+  .bracket2 {
+    margin: 0;
+    margin-right: 2em;
+    text-align: right;
+  }
+
+  p, h1 {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .socialMediaLine {
+    width: 50%;
+    margin: auto;
+    height: 10em;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .portrait {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background: #fff684;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
 </style>

@@ -10,7 +10,7 @@
         <div class="comment">
           <h4> Google HashCode </h4>
           <h6> (02/2017, Ecosse) </h6>
-          <h5> Hackaton, travail d'équile, JavaScript, Algorithmique avancée </h5>
+          <h5> Hackaton, travail d'équipe, JavaScript, Algorithmique avancée </h5>
         </div>
       </div>
       <div class="activityBlockContainer">
@@ -182,5 +182,34 @@ h6 {
 
 p, td {
   font-family: comfortaa, sans-serif;
+}
+
+
+/*Small screens*/
+@media only screen and (max-width : 1024px) {
+  #activity {
+    width: 100%;
+  }
+
+  .activityBlockContainer {
+    width: 100%;
+    margin: 2em;
+  }
+
+  h2 {
+    width: 30%;
+  }
+
+  .comment {
+    width: 60%;
+  }
+
+  .subTitle {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 10em;
+  }
 }
 </style>

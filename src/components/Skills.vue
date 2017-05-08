@@ -1,6 +1,6 @@
 <template>
   <div id="skills">
-    <h1> Skills </h1>
+    <h1> Compétences </h1>
     <p id="a">Note : J'ai representé
       mes compétences sous forme de graphique.
       Chacun représente pour un domaine précis
@@ -125,5 +125,41 @@ p {
 
 p, td {
   font-family: comfortaa, sans-serif;
+}
+
+/*Small screens*/
+@media only screen and (max-width : 1024px) {
+  #skills {
+    width: 100%;
+  }
+
+  .chartBlock {
+    width: 100%;
+    max-width: 100%;
+    padding: 1em;
+  }
+
+  .chart {
+    width: 40%;
+  }
+  .comments {
+    width: 50%;
+  }
+
+  .comments table {
+    width: 100%;
+  }
+
+  td {
+    font-size: 1.em;
+  }
+
+  .subTitle {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 10em;
+  }
 }
 </style>

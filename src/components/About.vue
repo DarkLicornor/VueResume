@@ -28,17 +28,26 @@
       <div class="aboutBlockContainer">
         <img src='../../static/images/home.svg'>
         <div class="comment">
-          <p>France - 6 ans</p>
-          <p>Andorre - 13 ans</p>
-          <p>Écosse - 1 an</p>
+          <p>France pendant 6 ans</p>
+          <p>Andorre pendant 13 ans</p>
+          <p>Écosse pendant 1 an</p>
         </div>
       </div>
       <div class="aboutBlockContainer">
         <img src='../../static/images/school-bus.svg'>
         <div class="comment">
           <p>Degree (eq. License) - Robert Gordon University</p>
-          <p>DUT Informatique - IUT de Blagnac</p>
-          <p>Baccalauréat - Lycée Comte de Foix</p>
+          <p>DUT Informatique - France - IUT de Blagnac</p>
+          <p>Baccalauréat - Andorre - Lycée Comte de Foix</p>
+        </div>
+      </div>
+      <div class="aboutBlockContainer">
+        <img src='../../static/images/language.svg'>
+        <div class="comment">
+          <p>Français bilingue</p>
+          <p>Anglais courant</p>
+          <p>Catalan courant</p>
+          <p>Espagnol courant</p>
         </div>
       </div>
     </div>
@@ -109,5 +118,38 @@ h1 {
 
 p, td {
   font-family: comfortaa, sans-serif;
+}
+
+
+/*Small screens*/
+@media only screen and (max-width : 1024px) {
+  #about {
+    width: 100%;
+  }
+
+  .aboutBlockContainer {
+    width: 100%;
+    margin: 2em;
+  }
+
+  .comment {
+    width: 50%;
+  }
+
+  .comment p {
+    font-size: 2em;
+  }
+
+  .subTitle {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 10em;
+  }
+
+  img {
+    width: 30%;
+  }
 }
 </style>
