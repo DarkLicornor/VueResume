@@ -1,119 +1,122 @@
 <template>
-  <div id="experience">
-    <h1>Mes expériences </h1>
-    <p class="subTitle">Stages, jobs et autres expériences professionelles</p>
-    <div class="experienceBlock">
-      <div class="experienceBlockContainer">
-        <h2>Développeuse mobile</h2>
-        <div class="comment">
-          <h4> Envirocache </h4>
-          <h6> (12/2016 --> ...) </h6>
-          <h5> Développement d’application </h5>
-          <h5> ReactNative, Atomic design, FireBase, ES6 </h5>
+  <div>
+    <div class="parallax"></div>
+    <div id="experience">
+      <h1>Mes expériences </h1>
+      <p class="subTitle">Stages, jobs et autres expériences professionelles</p>
+      <div class="experienceBlock">
+        <div class="experienceBlockContainer">
+          <h2>Développeuse mobile</h2>
+          <div class="comment">
+            <h4> Envirocache </h4>
+            <h6> (12/2016 --> ...) </h6>
+            <h5> Développement d’application </h5>
+            <h5> ReactNative, Atomic design, FireBase, ES6 </h5>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Développeuse web</h2>
-        <div class="comment">
-          <h4> Pin and Draw </h4>
-          <h6> (03/2017 --> 05/2017) </h6>
-          <h5> Conception, développement web et gestion de projets </h5>
-          <h5> VueJS, FireBase, API's, ES6 </h5>
-          <a target="_blank" href="https://pinanddraw.azurewebsites.net"> https://pinanddraw.azurewebsites.net </a>
+        <div class="experienceBlockContainer">
+          <h2>Développeuse web</h2>
+          <div class="comment">
+            <h4> Pin and Draw </h4>
+            <h6> (03/2017 --> 05/2017) </h6>
+            <h5> Conception, développement web et gestion de projets </h5>
+            <h5> VueJS, FireBase, API's, ES6 </h5>
+            <a target="_blank" href="https://pinanddraw.azurewebsites.net"> https://pinanddraw.azurewebsites.net </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Développeuse web</h2>
-        <div class="comment">
-          <h4> Sportlethen </h4>
-          <h6> (10/2016 --> 12/2016) </h6>
-          <h5> Conception, développement web et gestion de projets </h5>
-          <h5> PHP, HTML5, CSS3 </h5>
-          <a target="_blank" href="brusportlehen.azurewebsites.net/app/"> brusportlehen.azurewebsites.net/app/ </a>
+        <div class="experienceBlockContainer">
+          <h2>Développeuse web</h2>
+          <div class="comment">
+            <h4> Sportlethen </h4>
+            <h6> (10/2016 --> 12/2016) </h6>
+            <h5> Conception, développement web et gestion de projets </h5>
+            <h5> PHP, HTML5, CSS3 </h5>
+            <a target="_blank" href="brusportlehen.azurewebsites.net/app/"> brusportlehen.azurewebsites.net/app/ </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Bénévole</h2>
-        <div class="comment">
-          <h4> EclipseCon Europe </h4>
-          <h6> (10/2016) </h6>
-          <h5> Enregistrement de conférences </h5>
-          <h5> Outils d’enregistrement et gestion de talks </h5>
-          <a target="_blank" href="www.eclipsecon.org"> www.eclipsecon.org </a>
+        <div class="experienceBlockContainer">
+          <h2>Bénévole</h2>
+          <div class="comment">
+            <h4> EclipseCon Europe </h4>
+            <h6> (10/2016) </h6>
+            <h5> Enregistrement de conférences </h5>
+            <h5> Outils d’enregistrement et gestion de talks </h5>
+            <a target="_blank" href="www.eclipsecon.org"> www.eclipsecon.org </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Étudiante</h2>
-        <div class="comment">
-          <h4> Robert Gordon University </h4>
-          <h6> (09/2016 --> 06/2017) </h6>
-          <h5> Conception et développement
-            d’applications web et logiciel, Gestion de projet </h5>
-          <h5> Java, C#, PHP, JavaScript, HTML5, CSS3, MySQL, NoSQL </h5>
-          <a target="_blank" href="www.iut-blagnac.com"> www.iut-blagnac.com </a>
+        <div class="experienceBlockContainer">
+          <h2>Étudiante</h2>
+          <div class="comment">
+            <h4> Robert Gordon University </h4>
+            <h6> (09/2016 --> 06/2017) </h6>
+            <h5> Conception et développement
+              d’applications web et logiciel, Gestion de projet </h5>
+            <h5> Java, C#, PHP, JavaScript, HTML5, CSS3, MySQL, NoSQL </h5>
+            <a target="_blank" href="www.iut-blagnac.com"> www.iut-blagnac.com </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Stagiaire</h2>
-        <div class="comment">
-          <h4> Occitech </h4>
-          <h6> (04/2016 --> 07/2016) </h6>
-          <h5> Développement d’application </h5>
-          <h5> Développement Web - ReactJS, Atomic Design, Falcor, ES6 </h5>
-          <a target="_blank" href="www.occitech.fr"> www.occitech.fr </a>
+        <div class="experienceBlockContainer">
+          <h2>Stagiaire</h2>
+          <div class="comment">
+            <h4> Occitech </h4>
+            <h6> (04/2016 --> 07/2016) </h6>
+            <h5> Développement d’application </h5>
+            <h5> Développement Web - ReactJS, Atomic Design, Falcor, ES6 </h5>
+            <a target="_blank" href="www.occitech.fr"> www.occitech.fr </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Bénévole</h2>
-        <div class="comment">
-          <h4> EclipseCon France </h4>
-          <h6> (06/2016) </h6>
-          <h5> Enregistrement de conférences </h5>
-          <h5> Outils d’enregistrement et gestion de talks </h5>
-          <a target="_blank" href=" www.eclipsecon.org"> www.eclipsecon.org </a>
+        <div class="experienceBlockContainer">
+          <h2>Bénévole</h2>
+          <div class="comment">
+            <h4> EclipseCon France </h4>
+            <h6> (06/2016) </h6>
+            <h5> Enregistrement de conférences </h5>
+            <h5> Outils d’enregistrement et gestion de talks </h5>
+            <a target="_blank" href=" www.eclipsecon.org"> www.eclipsecon.org </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Développeuse web</h2>
-        <div class="comment">
-          <h4> Check your smile </h4>
-          <h6> (12/2015 --> 04/2016) </h6>
-          <h5> Développement web et gestion de projets </h5>
-          <h5> JavaScript, OOPHP, MVC pattern, MySQL </h5>
-          <a target="_blank" href="www.checkyoursmile.com"> www.checkyoursmile.com </a>
+        <div class="experienceBlockContainer">
+          <h2>Développeuse web</h2>
+          <div class="comment">
+            <h4> Check your smile </h4>
+            <h6> (12/2015 --> 04/2016) </h6>
+            <h5> Développement web et gestion de projets </h5>
+            <h5> JavaScript, OOPHP, MVC pattern, MySQL </h5>
+            <a target="_blank" href="www.checkyoursmile.com"> www.checkyoursmile.com </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Développeuse web</h2>
-        <div class="comment">
-          <h4> Colors locals </h4>
-          <h6> (07/2015 --> 09/2015) </h6>
-          <h5> Développement web </h5>
-          <h5> Auto-formation, HTML5, CSS3, PHP </h5>
-          <a target="_blank" href="www.colorslocals.com"> www.colorslocals.com </a>
+        <div class="experienceBlockContainer">
+          <h2>Développeuse web</h2>
+          <div class="comment">
+            <h4> Colors locals </h4>
+            <h6> (07/2015 --> 09/2015) </h6>
+            <h5> Développement web </h5>
+            <h5> Auto-formation, HTML5, CSS3, PHP </h5>
+            <a target="_blank" href="www.colorslocals.com"> www.colorslocals.com </a>
+          </div>
         </div>
-      </div>
-      <div class="experienceBlockContainer">
-        <h2>Étudiante</h2>
-        <div class="comment">
-          <h4> IUT de Blagnac </h4>
-          <h6> (09/2014 --> 06/2016) </h6>
-          <h5> Conception et développement
-            d’applications web et logiciel, Gestion de projet </h5>
-          <h5> Java, PYTHON, C, PHP, JSON, HTML, CSS, MySQL, Android </h5>
-          <a target="_blank" href="www.iut-blagnac.com"> www.iut-blagnac.com </a>
+        <div class="experienceBlockContainer">
+          <h2>Étudiante</h2>
+          <div class="comment">
+            <h4> IUT de Blagnac </h4>
+            <h6> (09/2014 --> 06/2016) </h6>
+            <h5> Conception et développement
+              d’applications web et logiciel, Gestion de projet </h5>
+            <h5> Java, PYTHON, C, PHP, JSON, HTML, CSS, MySQL, Android </h5>
+            <a target="_blank" href="www.iut-blagnac.com"> www.iut-blagnac.com </a>
+          </div>
         </div>
-      </div>
-      <!-- <div class="experienceBlockContainer">
-        <h2>Étudiante</h2>
-        <div class="comment">
-          <h4> Lycée Comte de Foix </h4>
-          <h6> (01/2014 -> 03/2014) </h6>
-          <h5> Développement d'un jeu de Snake </h5>
-          <h5> Python </h5>
+        <!-- <div class="experienceBlockContainer">
+          <h2>Étudiante</h2>
+          <div class="comment">
+            <h4> Lycée Comte de Foix </h4>
+            <h6> (01/2014 -> 03/2014) </h6>
+            <h5> Développement d'un jeu de Snake </h5>
+            <h5> Python </h5>
+          </div>
         </div>
+      -->
       </div>
-    -->
     </div>
   </div>
 </template>
@@ -130,6 +133,20 @@ export default {
 </script>
 
 <style scoped>
+
+.parallax {
+  background-image: url("../../static/images/drawing.jpg");
+
+  margin-left: -1em;
+  height: 50vh;
+  width: 100vw;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #experience {
   display: block;
   margin: auto;

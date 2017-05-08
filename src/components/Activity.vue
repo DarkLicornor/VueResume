@@ -1,92 +1,95 @@
 <template>
-  <div id="activity">
-    <h1> Evénements</h1>
-    <p class="subTitle">Confs, meetups, et rencontres cools auxquelles je vais</p>
-    <div class="activityBlock">
-      <div class="activityBlockContainer">
-        <a target="_blank" href="https://hashcode.withgoogle.com/">
-          <img src='https://hashcode.withgoogle.com/resources/social/twitter_v1.png'>
-        </a>
-        <div class="comment">
-          <h4> Google HashCode </h4>
-          <h6> (02/2017, Ecosse) </h6>
-          <h5> Hackaton, travail d'équipe, JavaScript, Algorithmique avancée </h5>
+  <div>
+    <div class="parallax"></div>
+    <div id="activity">
+      <h1> Evénements</h1>
+      <p class="subTitle">Confs, meetups, et rencontres cools auxquelles je vais</p>
+      <div class="activityBlock">
+        <div class="activityBlockContainer">
+          <a target="_blank" href="https://hashcode.withgoogle.com/">
+            <img src='https://hashcode.withgoogle.com/resources/social/twitter_v1.png'>
+          </a>
+          <div class="comment">
+            <h4> Google HashCode </h4>
+            <h6> (02/2017, Ecosse) </h6>
+            <h5> Hackaton, travail d'équipe, JavaScript, Algorithmique avancée </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="www.cybersecuritychallenge.org.uk">
-          <img src='https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png'>
-        </a>
-        <div class="comment">
-          <h4> CyberSecurity Challenge UK </h4>
-          <h6> (02/2017, Angleterre & 09/2016, Ecosse) </h6>
-          <h5> CTF, Talks, IT Quizz - 2ème position </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.cybersecuritychallenge.org.uk">
+            <img src='https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png'>
+          </a>
+          <div class="comment">
+            <h4> CyberSecurity Challenge UK </h4>
+            <h6> (02/2017, Angleterre & 09/2016, Ecosse) </h6>
+            <h5> CTF, Talks, IT Quizz - 2ème position </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="www.eclipsecon.org">
-          <img src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png'>
-        </a>
-        <div class="comment">
-          <h4> EclipseCon France et Europe </h4>
-          <h6> (09/2016, Allemagne et 06/2016, France) </h6>
-          <h5> Conférences, WorkShops - développement d’applications web et
-            logiciel, Eclipse, IoT, JAVA, PHP, JavaScript </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.eclipsecon.org">
+            <img src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png'>
+          </a>
+          <div class="comment">
+            <h4> EclipseCon France et Europe </h4>
+            <h6> (09/2016, Allemagne et 06/2016, France) </h6>
+            <h5> Conférences, WorkShops - développement d’applications web et
+              logiciel, Eclipse, IoT, JAVA, PHP, JavaScript </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="www.opengento.fr">
-          <img src='https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg'>
-        </a>
-        <div class="comment">
-          <h4> OpenGento </h4>
-          <h6> (06/2016, France) </h6>
-          <h5> WorkShops, Team building </h5>
-          <h5> Magento, PHP, ReactJS, ES6 </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.opengento.fr">
+            <img src='https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg'>
+          </a>
+          <div class="comment">
+            <h4> OpenGento </h4>
+            <h6> (06/2016, France) </h6>
+            <h5> WorkShops, Team building </h5>
+            <h5> Magento, PHP, ReactJS, ES6 </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="www.sudweb.fr/">
-          <img src='https://pbs.twimg.com/profile_images/692094055111598082/30n-OWOC.png'>
-        </a>
-        <div class="comment">
-          <h4> SudWeb </h4>
-          <h6> (05/2016, France) </h6>
-          <h5> Conférences, WorkShops </h5>
-          <h5> développement d’applications web et logiciel,
-            UX, Gestion de projet et de relations clients </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.sudweb.fr/">
+            <img src='https://pbs.twimg.com/profile_images/692094055111598082/30n-OWOC.png'>
+          </a>
+          <div class="comment">
+            <h4> SudWeb </h4>
+            <h6> (05/2016, France) </h6>
+            <h5> Conférences, WorkShops </h5>
+            <h5> développement d’applications web et logiciel,
+              UX, Gestion de projet et de relations clients </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="http://www.nuitdelinfo.com/">
-          <img src='https://pbs.twimg.com/profile_images/532339903/infos-nuit_info_logo_simple_400x400.png'>
-        </a>
-        <div class="comment">
-          <h4> Nuit de l'info </h4>
-          <h6> (12/2015 et 12/2014, France) </h6>
-          <h5> WHackaton, Travail d’équipe, design,  JAVASCRIPT, SQL </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="http://www.nuitdelinfo.com/">
+            <img src='https://pbs.twimg.com/profile_images/532339903/infos-nuit_info_logo_simple_400x400.png'>
+          </a>
+          <div class="comment">
+            <h4> Nuit de l'info </h4>
+            <h6> (12/2015 et 12/2014, France) </h6>
+            <h5> WHackaton, Travail d’équipe, design,  JAVASCRIPT, SQL </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="www.toulousejs.francejs.org">
-          <img src='https://pbs.twimg.com/profile_images/785806413037707264/P57kaRFv.jpg'>
-        </a>
-        <div class="comment">
-          <h4> ToulouseJS </h4>
-          <h6> (2015 -> 2016, France) </h6>
-          <h5> Conférences, Meetings </h5>
-          <h5> Nouveautés Javascript, frameworks </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.toulousejs.francejs.org">
+            <img src='https://pbs.twimg.com/profile_images/785806413037707264/P57kaRFv.jpg'>
+          </a>
+          <div class="comment">
+            <h4> ToulouseJS </h4>
+            <h6> (2015 -> 2016, France) </h6>
+            <h5> Conférences, Meetings </h5>
+            <h5> Nouveautés Javascript, frameworks </h5>
+          </div>
         </div>
-      </div>
-      <div class="activityBlockContainer">
-        <a target="_blank" href="www.toulouse.aperoweb.fr">
-          <img src='https://pbs.twimg.com/profile_images/1652182596/aperoweb_400x400.png'>
-        </a>
-        <div class="comment">
-          <h4> AperoWeb </h4>
-          <h6> (2015 -> 2016, France) </h6>
-          <h5> Conférences, Meetings </h5>
-          <h5> IT, Développement web, IoT </h5>
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.toulouse.aperoweb.fr">
+            <img src='https://pbs.twimg.com/profile_images/1652182596/aperoweb_400x400.png'>
+          </a>
+          <div class="comment">
+            <h4> AperoWeb </h4>
+            <h6> (2015 -> 2016, France) </h6>
+            <h5> Conférences, Meetings </h5>
+            <h5> IT, Développement web, IoT </h5>
+          </div>
         </div>
       </div>
     </div>
@@ -105,6 +108,19 @@ export default {
 </script>
 
 <style scoped>
+.parallax {
+  background-image: url("../../static/images/chat.jpg");
+
+  margin-left: -1em;
+  height: 50vh;
+  width: 100vw;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #activity {
   display: block;
   margin: auto;

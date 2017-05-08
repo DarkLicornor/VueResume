@@ -1,68 +1,71 @@
 <template>
-  <div id="skills">
-    <h1> Compétences </h1>
-    <p id="a">Note : J'ai representé
-      mes compétences sous forme de graphique.
-      Chacun représente pour un domaine précis
-      mon niveau actuel dans chaque langage
-      en fonction de mes autres niveaux.</p>
-    <div class="chartBlock">
+  <div>
+    <div class="parallax"></div>
+    <div id="skills">
+      <h1> Compétences </h1>
+      <p id="a">Note : J'ai representé
+        mes compétences sous forme de graphique.
+        Chacun représente pour un domaine précis
+        mon niveau actuel dans chaque langage
+        en fonction de mes autres niveaux.</p>
       <div class="chartBlock">
-        <div class="chart">
-          <WebChart />
+        <div class="chartBlock">
+          <div class="chart">
+            <WebChart />
+          </div>
+          <div class="comments">
+            <table>
+              <tr>
+                <td style="background: #14A0C5;">HTML5</td>
+                <td>Avancé</td>
+              </tr>
+              <tr>
+                <td style="background: #fff133;">CSS3</td>
+                <td>Avancé</td>
+              </tr>
+              <tr>
+                <td style="background: #ff0043;">NodeJS</td>
+                <td>Bon niveau</td>
+              </tr>
+              <tr>
+                <td style="background: #9b59b6;">ES6</td>
+                <td>Bon niveau</td>
+              </tr>
+              <tr>
+                <td style="background: #2ecc71;">PHP</td>
+                <td>Bon niveau</td>
+              </tr>
+              <tr>
+                <td style="background: #95a5a6;">MySQL</td>
+                <td>Bon niveau</td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div class="comments">
-          <table>
-            <tr>
-              <td style="background: #14A0C5;">HTML5</td>
-              <td>Avancé</td>
-            </tr>
-            <tr>
-              <td style="background: #fff133;">CSS3</td>
-              <td>Avancé</td>
-            </tr>
-            <tr>
-              <td style="background: #ff0043;">NodeJS</td>
-              <td>Bon niveau</td>
-            </tr>
-            <tr>
-              <td style="background: #9b59b6;">ES6</td>
-              <td>Bon niveau</td>
-            </tr>
-            <tr>
-              <td style="background: #2ecc71;">PHP</td>
-              <td>Bon niveau</td>
-            </tr>
-            <tr>
-              <td style="background: #95a5a6;">MySQL</td>
-              <td>Bon niveau</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class="chartBlock">
-        <div class="chart">
-          <SoftwareChart />
-        </div>
-        <div class="comments">
-          <table>
-            <tr>
-              <td style="background: #14A0C5;">Java</td>
-              <td>Avancé</td>
-            </tr>
-            <tr>
-              <td style="background: #fff133;">Python</td>
-              <td>Bon niveau</td>
-            </tr>
-            <tr>
-              <td style="background: #ff0043;">C#</td>
-              <td>Bon niveau</td>
-            </tr>
-            <tr>
-              <td style="background: #9b59b6;">C</td>
-              <td>Notions</td>
-            </tr>
-          </table>
+        <div class="chartBlock">
+          <div class="chart">
+            <SoftwareChart />
+          </div>
+          <div class="comments">
+            <table>
+              <tr>
+                <td style="background: #14A0C5;">Java</td>
+                <td>Avancé</td>
+              </tr>
+              <tr>
+                <td style="background: #fff133;">Python</td>
+                <td>Bon niveau</td>
+              </tr>
+              <tr>
+                <td style="background: #ff0043;">C#</td>
+                <td>Bon niveau</td>
+              </tr>
+              <tr>
+                <td style="background: #9b59b6;">C</td>
+                <td>Notions</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
@@ -81,6 +84,19 @@ export default {
 </script>
 
 <style scoped>
+.parallax {
+  background-image: url("../../static/images/painting.jpg");
+
+  margin-left: -1em;
+  height: 50vh;
+  width: 100vw;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #skills {
   display: block;
   margin: auto;

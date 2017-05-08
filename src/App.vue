@@ -45,21 +45,6 @@ pink:  #ff0043*/
 }
 
 @font-face {
-    font-family: josefin;
-    src: url(../static/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: dosis;
-    src: url(../static/fonts/Dosis/Dosis-Regular.ttf);
-}
-
-@font-face {
-    font-family: noto;
-    src: url(../static/fonts/Noto_Sans/NotoSans-Regular.ttf);
-}
-
-@font-face {
     font-family: sophia;
     src: url(../static/fonts/Sophia/Sophia/Sophia/Sophia.ttf);
 }
@@ -72,10 +57,6 @@ pink:  #ff0043*/
 @font-face {
     font-family: sophiaRight;
     src: url(../static/fonts/Sophia/Sophia/SophiaRight/SophiaRight.ttf);
-}
-@font-face {
-    font-family: titillium;
-    src: url(../static/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
 
 </style>
