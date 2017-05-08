@@ -122,7 +122,7 @@ p, td {
 
 
 /*Small screens*/
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 600px) {
   #about {
     width: 100%;
   }

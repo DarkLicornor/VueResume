@@ -226,8 +226,21 @@ a img {
   list-style-type:none;
 }
 
-/*Small screens*/
 @media only screen and (max-width : 1024px) {
+  p {
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  .bracket2 {
+    margin-left: 35vw;
+  }
+}
+/*Small screens*/
+@media only screen and (max-width : 1024px) and (orientation : portrait) {
   .container {
     display: flex;
     flex-direction: column;
