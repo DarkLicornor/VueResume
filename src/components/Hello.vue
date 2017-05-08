@@ -12,10 +12,10 @@
         <p style="margin-left: 40vw;" class="bracket"> } </p><br>
       </div>
       <div class="socialMediaLine">
-        <a><img src="../../static/images/twitter.svg"></a>
-        <a><img style="width: 100%;" src="../../static/images/github.png"></a>
-        <a><img src="../../static/images/linkedin.svg"></a>
-        <a><img src="../../static/images/instagram.svg"></a>
+        <a target="_blank" href="https://twitter.com/Alexa_Noel"><img src="../../static/images/twitter.svg"></a>
+        <a target="_blank" href="https://github.com/DarkLicornor"><img style="width: 100%;" src="../../static/images/github.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/alexa-n-86ab2a93/"><img src="../../static/images/linkedin.svg"></a>
+        <a target="_blank" href="https://www.instagram.com/dark.licornor/?hl=fr"><img src="../../static/images/instagram.svg"></a>
       </div>
       <div class="portrait">
         <img src="../../static/images/portrait.png">
@@ -23,16 +23,65 @@
     </div>
     <div class="menu">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">A propos</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Expérience</a></li>
-        <li><a href="#scolarite">Scolarité</a></li>
-        <li><a>Télécharcher CV</a></li>
+        <li v-if="hash == 'home'"><a class="activeLink" href="#home">Home</a></li>
+        <li v-else><a href="#home">Home</a></li>
+        <li v-if="hash == 'about'"><a class="activeLink" href="#about">A propos</a></li>
+        <li v-else><a href="#about">A propos</a></li>
+        <li v-if="hash == 'skills'"><a class="activeLink" href="#skills">Skills</a></li>
+        <li v-else><a href="#skills">Skills</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#experience">Expérience</a></li>
+        <li v-else><a href="#experience">Expérience</a></li>
+        <li v-if="hash == 'activity'"><a class="activeLink" href="#activity">Evénements</a></li>
+        <li v-else ><a href="#activity">Evénements</a></li>
+        <li><a target="_blank" href="../../static/cv.pdf">Télécharger CV</a></form></li>
       </ul>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      hash: 'home'
+    }
+  },
+  methods: {
+    isScrolledIntoView (el) {
+      let elemTop = el.getBoundingClientRect().top
+      let elemBottom = el.getBoundingClientRect().bottom
+      let elemSize = elemBottom - elemTop
+      let isVisible
+      if (elemSize > window.innerHeight && elemBottom >= window.innerHeight && elemTop <= 0) {
+        isVisible = true
+      } else if (elemSize < window.innerHeight && elemBottom < window.innerHeight && elemTop >= 0) {
+        isVisible = true
+      } else if (elemTop >= 0) {
+        isVisible = true
+      } else {
+        isVisible = false
+      }
+      return isVisible
+    }
+  },
+  mounted () {
+    let context = this
+    window.setInterval(function () {
+      if (context.isScrolledIntoView(document.getElementById('home'))) {
+        context.hash = 'home'
+      } else if (context.isScrolledIntoView(document.getElementById('about'))) {
+        context.hash = 'about'
+      } else if (context.isScrolledIntoView(document.getElementById('skills'))) {
+        context.hash = 'skills'
+      } else if (context.isScrolledIntoView(document.getElementById('experience'))) {
+        context.hash = 'experience'
+      } else if (context.isScrolledIntoView(document.getElementById('activity'))) {
+        context.hash = 'activity'
+      }
+    }, 100)
+  }
+}
+</script>
 
 <style scoped>
 .container {
@@ -96,18 +145,34 @@ h1 {
 }
 
 a {
-  cursor: pointer;
   display: block;
-  padding: 1em;
+  text-decoration: none;
+  color: #14A0C5;
+  font-family: comfortaa;
+  text-align: center;
+  padding: 0.5em;
   width: 100%;
 }
 
+li a {
+  border-bottom: 2px solid #ffffff;
+}
+
+li a:hover {
+  border-bottom: 2px solid #fff133;
+}
+
+.activeLink {
+  border-bottom: 2px solid #fff133;
+}
+
 a img {
+  cursor: pointer;
   border: none;
 }
 
 .menu {
-  bottom: 0;
+  bottom: -1px;
   margin: 0;
   width: 100%;
   position: fixed;
@@ -119,7 +184,13 @@ a img {
   align-items: center;
   justify-content: space-around;
   margin: auto;
+  padding: 1em;
   background: white;
+  border: 0.2em solid #ff0043;
+  border-bottom: none;
+  -webkit-box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.75);
 }
 
 .menu li {

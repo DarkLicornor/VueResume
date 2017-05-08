@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <h1> A propos de moi </h1>
-    <p class="subTitle">Curieuse et passionnée, andorrane et cinglée</p>
+    <p class="subTitle">Curieuse et passionnée, andorrane et déterminée</p>
     <div class="aboutBlock">
       <div class="aboutBlockContainer">
         <img src='../../static/images/like.svg'>

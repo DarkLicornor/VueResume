@@ -4,19 +4,26 @@
     <Hello />
     <About />
     <Skills />
+    <Experience />
+    <Activity />
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello.vue'
+import Experience from './components/Experience.vue'
 import About from './components/About.vue'
 import Skills from './components/Skills.vue'
+import Activity from './components/Activity.vue'
+
 export default {
   name: 'app',
   components: {
     Hello,
     About,
-    Skills
+    Skills,
+    Experience,
+    Activity
   }
 }
 </script>
@@ -30,6 +37,11 @@ pink:  #ff0043*/
 @font-face {
     font-family: comfortaa;
     src: url(../static/fonts/comfortaa/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: comfortaaLight;
+    src: url(../static/fonts/comfortaa/Comfortaa-Light.ttf);
 }
 
 @font-face {
@@ -52,6 +64,15 @@ pink:  #ff0043*/
     src: url(../static/fonts/Sophia/Sophia/Sophia/Sophia.ttf);
 }
 
+@font-face {
+    font-family: sophiaLeft;
+    src: url(../static/fonts/Sophia/Sophia/SophiaLeft/SophiaLeft.ttf);
+}
+
+@font-face {
+    font-family: sophiaRight;
+    src: url(../static/fonts/Sophia/Sophia/SophiaRight/SophiaRight.ttf);
+}
 @font-face {
     font-family: titillium;
     src: url(../static/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
