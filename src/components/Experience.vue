@@ -10,7 +10,7 @@
           <div class="comment">
             <h4> Envirocache </h4>
             <h6> (12/2016 --> ...) </h6>
-            <h5> Développement d’application </h5>
+            <h5> Développement PATATATPAPTPATPAPTAPTPAPTAPTP d’application </h5>
             <h5> ReactNative, Atomic design, FireBase, ES6 </h5>
           </div>
         </div>
@@ -21,7 +21,7 @@
             <h6> (03/2017 --> 05/2017) </h6>
             <h5> Conception, développement web et gestion de projets </h5>
             <h5> VueJS, FireBase, API's, ES6 </h5>
-            <a target="_blank" href="https://pinanddraw.azurewebsites.net"> https://pinanddraw.azurewebsites.net </a>
+            <a target="_blank" href="https://pinanddraw.azurewebsites.net">pinanddraw.azurewebsites.net </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -31,7 +31,7 @@
             <h6> (10/2016 --> 12/2016) </h6>
             <h5> Conception, développement web et gestion de projets </h5>
             <h5> PHP, HTML5, CSS3 </h5>
-            <a target="_blank" href="brusportlehen.azurewebsites.net/app/"> brusportlehen.azurewebsites.net/app/ </a>
+            <a target="_blank" href="https://brusportlehen.azurewebsites.net/app/">brusportlehen.azurewebsites.net/app/ </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -41,7 +41,7 @@
             <h6> (10/2016) </h6>
             <h5> Enregistrement de conférences </h5>
             <h5> Outils d’enregistrement et gestion de talks </h5>
-            <a target="_blank" href="www.eclipsecon.org"> www.eclipsecon.org </a>
+            <a target="_blank" href="https://www.eclipsecon.org"> www.eclipsecon.org </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -52,7 +52,7 @@
             <h5> Conception et développement
               d’applications web et logiciel, Gestion de projet </h5>
             <h5> Java, C#, PHP, JavaScript, HTML5, CSS3, MySQL, NoSQL </h5>
-            <a target="_blank" href="www.iut-blagnac.com"> www.iut-blagnac.com </a>
+            <a target="_blank" href="http://www.rgu.ac.uk">www.rgu.ac.uk</a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -62,7 +62,7 @@
             <h6> (04/2016 --> 07/2016) </h6>
             <h5> Développement d’application </h5>
             <h5> Développement Web - ReactJS, Atomic Design, Falcor, ES6 </h5>
-            <a target="_blank" href="www.occitech.fr"> www.occitech.fr </a>
+            <a target="_blank" href="https://www.occitech.fr"> www.occitech.fr </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -72,7 +72,7 @@
             <h6> (06/2016) </h6>
             <h5> Enregistrement de conférences </h5>
             <h5> Outils d’enregistrement et gestion de talks </h5>
-            <a target="_blank" href=" www.eclipsecon.org"> www.eclipsecon.org </a>
+            <a target="_blank" href="https://www.eclipsecon.org">www.eclipsecon.org </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -82,7 +82,7 @@
             <h6> (12/2015 --> 04/2016) </h6>
             <h5> Développement web et gestion de projets </h5>
             <h5> JavaScript, OOPHP, MVC pattern, MySQL </h5>
-            <a target="_blank" href="www.checkyoursmile.com"> www.checkyoursmile.com </a>
+            <a target="_blank" href="https://www.checkyoursmile.fr">www.checkyoursmile.com </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -92,7 +92,7 @@
             <h6> (07/2015 --> 09/2015) </h6>
             <h5> Développement web </h5>
             <h5> Auto-formation, HTML5, CSS3, PHP </h5>
-            <a target="_blank" href="www.colorslocals.com"> www.colorslocals.com </a>
+            <a target="_blank" href="http://www.colorslocals.com">www.colorslocals.com </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
@@ -103,7 +103,7 @@
             <h5> Conception et développement
               d’applications web et logiciel, Gestion de projet </h5>
             <h5> Java, PYTHON, C, PHP, JSON, HTML, CSS, MySQL, Android </h5>
-            <a target="_blank" href="www.iut-blagnac.com"> www.iut-blagnac.com </a>
+            <a target="_blank" href="http://www.iut-blagnac.fr/">www.iut-blagnac.com </a>
           </div>
         </div>
         <!-- <div class="experienceBlockContainer">
