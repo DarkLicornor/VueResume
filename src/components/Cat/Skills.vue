@@ -73,8 +73,8 @@
 </template>
 
 <script>
-import WebChart from './WebChart.vue'
-import SoftwareChart from './SoftwareChart.vue'
+import WebChart from '../WebChart.vue'
+import SoftwareChart from '../SoftwareChart.vue'
 export default {
   components: {
     SoftwareChart,
@@ -85,7 +85,7 @@ export default {
 
 <style scoped>
 .parallax {
-  background-image: url("../../static/images/painting.jpg");
+  background-image: url("../../../static/images/painting.jpg");
 
   margin-left: -1em;
   height: 50vh;
@@ -167,7 +167,7 @@ p, td {
   }
 
   td {
-    font-size: 1.em;
+    font-size: 1.5em;
   }
 
   .subTitle {

@@ -14,27 +14,45 @@
         </div>
       </div>
       <div class="socialMediaLine">
-        <a target="_blank" href="https://twitter.com/Alexa_Noel"><img src="../../static/images/twitter.svg"></a>
-        <a target="_blank" href="https://github.com/DarkLicornor"><img style="width: 100%;" src="../../static/images/github.png"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/alexa-n-86ab2a93/"><img src="../../static/images/linkedin.svg"></a>
-        <a target="_blank" href="https://www.instagram.com/dark.licornor/?hl=fr"><img src="../../static/images/instagram.svg"></a>
+        <a target="_blank" href="https://twitter.com/Alexa_Noel"><img src="../../../static/images/twitter.svg"></a>
+        <a target="_blank" href="https://github.com/DarkLicornor"><img style="width: 100%;" src="../../../static/images/github.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/alexa-n-86ab2a93/"><img src="../../../static/images/linkedin.svg"></a>
+        <a target="_blank" href="https://www.instagram.com/dark.licornor/?hl=fr"><img src="../../../static/images/instagram.svg"></a>
       </div>
       <div class="portrait">
-        <img src="../../static/images/portrait.png">
+        <img src="../../../static/images/portrait.png">
       </div>
     </div>
-    <div class="menu">
+    <div v-if="screenWidth > 1000" class="menu">
       <ul>
-        <li v-if="hash == 'home'"><a class="activeLink" href="#home">Home</a></li>
-        <li v-else><a href="#home">Home</a></li>
-        <li v-if="hash == 'about'"><a class="activeLink" href="#about">A propos</a></li>
-        <li v-else><a href="#about">A propos</a></li>
-        <li v-if="hash == 'skills'"><a class="activeLink" href="#skills">Compétences</a></li>
-        <li v-else><a href="#skills">Compétences</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#experience">Expériences</a></li>
-        <li v-else><a href="#experience">Expériences</a></li>
-        <li v-if="hash == 'activity'"><a class="activeLink" href="#activity">Evénements</a></li>
-        <li v-else ><a href="#activity">Evénements</a></li>
+        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Accueil</a></li>
+        <li v-else><a href="#" v-scroll-to="'#home'">Accueil</a></li>
+        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">A propos de moi</a></li>
+        <li v-else><a href="#" v-scroll-to="'#about'">A propos de moi</a></li>
+        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Compétences</a></li>
+        <li v-else><a href="#" v-scroll-to="'#skills'">Compétences</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Expérience</a></li>
+        <li v-else><a href="#" v-scroll-to="'#experience'">Expérience</a></li>
+        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Evénements</a></li>
+        <li v-else ><a href="#" v-scroll-to="'#activity'">Evénements</a></li>
+        <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
+      </ul>
+    </div>
+    <div v-else class="hamburgerButton">
+      <img @click="toggleMenu" src="../../../static/images/menu.svg">
+    </div>
+    <div v-if="menuOpen == true" class="hamburgerMenu">
+      <ul>
+        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Accueil</a></li>
+        <li v-else><a href="#" v-scroll-to="'#home'">Accueil</a></li>
+        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">A propos de moi</a></li>
+        <li v-else><a href="#" v-scroll-to="'#about'">A propos de moi</a></li>
+        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Compétences</a></li>
+        <li v-else><a href="#" v-scroll-to="'#skills'">Compétences</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Expérience</a></li>
+        <li v-else><a href="#" v-scroll-to="'#experience'">Expérience</a></li>
+        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Evénements</a></li>
+        <li v-else ><a href="#" v-scroll-to="'#activity'">Evénements</a></li>
         <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
       </ul>
     </div>
@@ -43,22 +61,31 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       hash: 'home',
-      screenWidth: window.innerWidth,
-      screenHeight: window.innerHeight
+      screenWidth: document.documentElement.clientWidth,
+      screenHeight: window.innerHeight,
+      menuOpen: false
     }
   },
   methods: {
-    isScrolledIntoView (el) {
+    isScrolledIntoView(el) {
       let elemTop = el.getBoundingClientRect().top
       let elemBottom = el.getBoundingClientRect().bottom
       let elemSize = elemBottom - elemTop
       let isVisible
-      if (elemSize > window.innerHeight && elemBottom >= window.innerHeight && elemTop <= 0) {
+      if (
+        elemSize > window.innerHeight &&
+        elemBottom >= window.innerHeight &&
+        elemTop <= 0
+      ) {
         isVisible = true
-      } else if (elemSize < window.innerHeight && elemBottom < window.innerHeight && elemTop >= 0) {
+      } else if (
+        elemSize < window.innerHeight &&
+        elemBottom < window.innerHeight &&
+        elemTop >= 0
+      ) {
         isVisible = true
       } else if (elemTop >= 0) {
         isVisible = true
@@ -66,20 +93,29 @@ export default {
         isVisible = false
       }
       return isVisible
+    },
+    toggleMenu() {
+      this.menuOpen = !this.menuOpen
     }
   },
-  mounted () {
+  mounted() {
     let context = this
-    window.setInterval(function () {
+    window.setInterval(function() {
       if (context.isScrolledIntoView(document.getElementById('home'))) {
         context.hash = 'home'
       } else if (context.isScrolledIntoView(document.getElementById('about'))) {
         context.hash = 'about'
-      } else if (context.isScrolledIntoView(document.getElementById('skills'))) {
+      } else if (
+        context.isScrolledIntoView(document.getElementById('skills'))
+      ) {
         context.hash = 'skills'
-      } else if (context.isScrolledIntoView(document.getElementById('experience'))) {
+      } else if (
+        context.isScrolledIntoView(document.getElementById('experience'))
+      ) {
         context.hash = 'experience'
-      } else if (context.isScrolledIntoView(document.getElementById('activity'))) {
+      } else if (
+        context.isScrolledIntoView(document.getElementById('activity'))
+      ) {
         context.hash = 'activity'
       }
       // this.screenWidth = window.innerWidth ||
@@ -88,7 +124,8 @@ export default {
       // this.screenHeight = window.innerHeight ||
       // document.documentElement.clientHeight ||
       // document.getElementsByTagName('body')[0].clientHeight
-      this.screenWidth = window.innerWidth
+      console.log('w', this.screenWidth)
+      this.screenWidth = document.documentElement.clientWidth
       this.screenHeight = window.innerHeigh
     }, 100)
   }
@@ -129,6 +166,18 @@ export default {
   align-items: center;
   justify-content: center;
 
+}
+
+.hamburgerButton {
+    position: absolute;
+    display: block;
+    top: 0;
+    margin: auto;
+    padding: 1em;
+}
+
+.hamburgerButton img {
+  width: 10em;
 }
 
 .portrait {

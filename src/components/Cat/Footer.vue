@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import WebChart from './WebChart.vue'
-import SoftwareChart from './SoftwareChart.vue'
+import WebChart from '../WebChart.vue'
+import SoftwareChart from '../SoftwareChart.vue'
 export default {
   components: {
     SoftwareChart,

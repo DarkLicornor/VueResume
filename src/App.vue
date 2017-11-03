@@ -1,30 +1,14 @@
 <template>
   <div id="app">
+    <router-view></router-view>
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <Hello />
-    <About />
-    <Skills />
-    <Experience />
-    <Activity />
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello.vue'
-import Experience from './components/Experience.vue'
-import About from './components/About.vue'
-import Skills from './components/Skills.vue'
-import Activity from './components/Activity.vue'
-
 export default {
   name: 'app',
-  components: {
-    Hello,
-    About,
-    Skills,
-    Experience,
-    Activity
-  }
+  components: {}
 }
 </script>
 

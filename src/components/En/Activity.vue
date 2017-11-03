@@ -2,40 +2,56 @@
   <div>
     <div class="parallax"></div>
     <div id="activity">
-      <h1> Evénements</h1>
-      <p class="subTitle">Confs, meetups, et rencontres cools auxquelles je vais</p>
+      <h1> Events </h1>
+      <p class="subTitle">Confs, meetups, and cool meetings where I've been</p>
       <div class="activityBlock">
-        <div class="activityBlockContainer">
-          <a target="_blank" href="https://hashcode.withgoogle.com/">
-            <img src='https://hashcode.withgoogle.com/resources/social/twitter_v1.png'>
-          </a>
-          <div class="comment">
-            <h4> Google HashCode </h4>
-            <h6> (02/2017, Ecosse) </h6>
-            <h5> Hackaton, travail d'équipe, JavaScript, Algorithmique avancée </h5>
-          </div>
-        </div>
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.cybersecuritychallenge.org.uk">
-            <img src='https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png'>
-          </a>
-          <div class="comment">
-            <h4> CyberSecurity Challenge UK </h4>
-            <h6> (02/2017, Angleterre & 09/2016, Ecosse) </h6>
-            <h5> CTF, Talks, IT Quizz - 2ème position </h5>
-          </div>
-        </div>
+
         <div class="activityBlockContainer">
           <a target="_blank" href="www.eclipsecon.org">
             <img src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png'>
           </a>
           <div class="comment">
             <h4> EclipseCon France et Europe </h4>
-            <h6> (09/2016, Allemagne et 06/2016, France) </h6>
-            <h5> Conférences, WorkShops - développement d’applications web et
-              logiciel, Eclipse, IoT, JAVA, PHP, JavaScript </h5>
+            <h6> (09/2016 and 09/2017, Germany and 06/2016 and 06/2017, France) </h6>
+            <h5> Conferences, WorkShops - Application and software development,
+              mobile development, Talks recording, Talks Management,
+               Eclipse, IoT, JAVA, PHP, JavaScript </h5>
           </div>
         </div>
+
+        <div class="activityBlockContainer">
+          <a target="_blank">
+            <img src='https://pbs.twimg.com/media/DAf_1bnXsAACVds.jpg'>
+          </a>
+          <div class="comment">
+            <h4> CodeFest </h4>
+            <h6> (06/2017, France) </h6>
+            <h5> Hackaton, teamwork, JavaScript, ReactJS, OCR, UX - 1st place</h5>
+          </div>
+        </div>
+
+        <div class="activityBlockContainer">
+          <a target="_blank" href="https://hashcode.withgoogle.com/">
+            <img src='https://hashcode.withgoogle.com/resources/social/twitter_v1.png'>
+          </a>
+          <div class="comment">
+            <h4> Google HashCode </h4>
+            <h6> (02/2017, Scotland) </h6>
+            <h5> Hackaton, teamwork, JavaScript, Algorithmic </h5>
+          </div>
+        </div>
+
+        <div class="activityBlockContainer">
+          <a target="_blank" href="www.cybersecuritychallenge.org.uk">
+            <img src='https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png'>
+          </a>
+          <div class="comment">
+            <h4> CyberSecurity Challenge UK </h4>
+            <h6> (02/2017, England & 09/2016, Scotland) </h6>
+            <h5> CTF, Talks, IT Quizz - 2nd place </h5>
+          </div>
+        </div>
+
         <div class="activityBlockContainer">
           <a target="_blank" href="www.opengento.fr">
             <img src='https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg'>
@@ -54,9 +70,9 @@
           <div class="comment">
             <h4> SudWeb </h4>
             <h6> (05/2016, France) </h6>
-            <h5> Conférences, WorkShops </h5>
-            <h5> développement d’applications web et logiciel,
-              UX, Gestion de projet et de relations clients </h5>
+            <h5> Conferences, WorkShops </h5>
+            <h5> Web and Mobile development,
+              UX, Project management and client relations</h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -65,8 +81,8 @@
           </a>
           <div class="comment">
             <h4> Nuit de l'info </h4>
-            <h6> (12/2015 et 12/2014, France) </h6>
-            <h5> WHackaton, Travail d’équipe, design,  JAVASCRIPT, SQL </h5>
+            <h6> (12/2015 and 12/2014, France) </h6>
+            <h5> Hackaton, Teamwork, Design, JavaScript, SQL </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -76,8 +92,8 @@
           <div class="comment">
             <h4> ToulouseJS </h4>
             <h6> (2015 -> 2016, France) </h6>
-            <h5> Conférences, Meetings </h5>
-            <h5> Nouveautés Javascript, frameworks </h5>
+            <h5> Conferences, Meetings </h5>
+            <h5> Javascript news, frameworks </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -87,8 +103,8 @@
           <div class="comment">
             <h4> AperoWeb </h4>
             <h6> (2015 -> 2016, France) </h6>
-            <h5> Conférences, Meetings </h5>
-            <h5> IT, Développement web, IoT </h5>
+            <h5> Conferences, Meetings </h5>
+            <h5> IT, Web development, IoT </h5>
           </div>
         </div>
       </div>
@@ -97,8 +113,8 @@
 </template>
 
 <script>
-import WebChart from './WebChart.vue'
-import SoftwareChart from './SoftwareChart.vue'
+import WebChart from '../WebChart.vue'
+import SoftwareChart from '../SoftwareChart.vue'
 export default {
   components: {
     SoftwareChart,
@@ -109,7 +125,7 @@ export default {
 
 <style scoped>
 .parallax {
-  background-image: url("../../static/images/chat.jpg");
+  background-image: url("../../../static/images/chat.jpg");
 
   margin-left: -1em;
   height: 50vh;
