@@ -39,8 +39,8 @@
         <div class='comment'>
           <p>4to año especialidad informática- Francia - INSA Toulouse</p>
           <p>Degree (eq. Licencia) - Robert Gordon University</p>
-          <p>DUT Informatique - Francia - IUT de Blagnac</p>
-          <p>Bachilleratp - Andorra - Lycée Comte de Foix</p>
+          <p>DUT Informática - Francia - IUT de Blagnac</p>
+          <p>Bachillerato - Andorra - Lycée Comte de Foix</p>
         </div>
       </div>
       <div class='aboutBlockContainer'>

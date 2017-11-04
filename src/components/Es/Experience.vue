@@ -2,55 +2,77 @@
   <div>
     <div class="parallax"></div>
     <div id="experience">
-      <h1>Mes expériences </h1>
-      <p class="subTitle">Stages, jobs et autres expériences professionelles</p>
+      <h1>Mi experiencia profesional </h1>
+      <p class="subTitle">Pasantías, trabajos y otras experiencias profesionales</p>
       <div class="experienceBlock">
+          <div class="experienceBlockContainer">
+            <h2>Voluntario</h2>
+            <div class="comment">
+              <h4> EclipseCon Europa </h4>
+              <h6> (10/2017) </h6>
+              <h5> Equipo de grabación </h5>
+              <h5> Grabación y gestión de conferencias </h5>
+              <a target="_blank" href="https://www.eclipsecon.org"> www.eclipsecon.org </a>
+            </div>
+          </div>
+          <div class="experienceBlockContainer">
+            <h2>Estudiante</h2>
+            <div class="comment">
+              <h4> INSA Toulouse </h4>
+              <h6> (09/2017 --> ...) </h6>
+              <h5> Programación funcional, programación lógica, red,
+                gestión de proyectos, programación y concepción orientada objeto, sistemas de información,
+                software y redes seguridad, microcontroladores.
+              </h5>
+              <h5> Java, C, MySQL, XML, Ocaml, Prolog </h5>
+              <a target="_blank" href="http://www.insa-toulouse.fr/en/index.html">www.insa-toulouse.fr/en/index.html</a>
+            </div>
+          </div>
         <div class="experienceBlockContainer">
-          <h2>Développeuse mobile</h2>
+          <h2>Desarolladora móvil</h2>
           <div class="comment">
             <h4> Envirocache </h4>
             <h6> (12/2016 --> ...) </h6>
-            <h5> Développement d’application </h5>
+            <h5>Desarrollo de aplicaciones </h5>
             <h5> ReactNative, Atomic design, FireBase, ES6 </h5>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Développeuse web</h2>
+          <h2>Desarolladora web</h2>
           <div class="comment">
             <h4> Pin and Draw </h4>
             <h6> (03/2017 --> 05/2017) </h6>
-            <h5> Conception, développement web et gestion de projets </h5>
+            <h5> Diseño, desarrollo web y gestión de proyectos </h5>
             <h5> VueJS, FireBase, API's, ES6 </h5>
             <a target="_blank" href="https://pinanddraw.azurewebsites.net">pinanddraw.azurewebsites.net </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Développeuse web</h2>
+          <h2>Desarolladora web</h2>
           <div class="comment">
             <h4> Sportlethen </h4>
             <h6> (10/2016 --> 12/2016) </h6>
-            <h5> Conception, développement web et gestion de projets </h5>
+            <h5> Diseño, desarrollo web y gestión de proyectos </h5>
             <h5> PHP, HTML5, CSS3 </h5>
             <a target="_blank" href="https://brusportlehen.azurewebsites.net/app/">brusportlehen.azurewebsites.net/app/ </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Bénévole</h2>
+          <h2>Voluntario</h2>
           <div class="comment">
-            <h4> EclipseCon Europe </h4>
+            <h4> EclipseCon Europa </h4>
             <h6> (10/2016) </h6>
-            <h5> Enregistrement de conférences </h5>
-            <h5> Outils d’enregistrement et gestion de talks </h5>
+            <h5> Equipo de grabación </h5>
+            <h5> Grabación y gestión de conferencias </h5>
             <a target="_blank" href="https://www.eclipsecon.org"> www.eclipsecon.org </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Étudiante</h2>
+          <h2>Estudiante</h2>
           <div class="comment">
             <h4> Robert Gordon University </h4>
             <h6> (09/2016 --> 06/2017) </h6>
-            <h5> Conception et développement
-              d’applications web et logiciel, Gestion de projet </h5>
+            <h5> Diseño y desarollo de aplicaciones web y software, gestión de proyectos </h5>
             <h5> Java, C#, PHP, JavaScript, HTML5, CSS3, MySQL, NoSQL </h5>
             <a target="_blank" href="http://www.rgu.ac.uk">www.rgu.ac.uk</a>
           </div>
@@ -60,38 +82,38 @@
           <div class="comment">
             <h4> Occitech </h4>
             <h6> (04/2016 --> 07/2016) </h6>
-            <h5> Développement d’application </h5>
-            <h5> Développement Web - ReactJS, Atomic Design, Falcor, ES6 </h5>
+            <h5>Desarrollo de aplicaciones </h5>
+            <h5> Desarollo Web - ReactJS, Atomic Design, Falcor, ES6 </h5>
             <a target="_blank" href="https://www.occitech.fr"> www.occitech.fr </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Bénévole</h2>
+          <h2>Voluntario</h2>
           <div class="comment">
-            <h4> EclipseCon France </h4>
+            <h4> EclipseCon Francia </h4>
             <h6> (06/2016) </h6>
-            <h5> Enregistrement de conférences </h5>
-            <h5> Outils d’enregistrement et gestion de talks </h5>
+            <h5> Equipo de grabación </h5>
+            <h5> Grabación y gestión de conferencias </h5>
             <a target="_blank" href="https://www.eclipsecon.org">www.eclipsecon.org </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Développeuse web</h2>
+          <h2>Desarolladora web</h2>
           <div class="comment">
             <h4> Check your smile </h4>
             <h6> (12/2015 --> 04/2016) </h6>
-            <h5> Développement web et gestion de projets </h5>
+            <h5> Desarollo web y gestión de proyectos </h5>
             <h5> JavaScript, OOPHP, MVC pattern, MySQL </h5>
             <a target="_blank" href="https://www.checkyoursmile.fr">www.checkyoursmile.com </a>
           </div>
         </div>
         <div class="experienceBlockContainer">
-          <h2>Développeuse web</h2>
+          <h2>Desarolladora web</h2>
           <div class="comment">
             <h4> Colors locals </h4>
             <h6> (07/2015 --> 09/2015) </h6>
-            <h5> Développement web </h5>
-            <h5> Auto-formation, HTML5, CSS3, PHP </h5>
+            <h5> Desarollo web </h5>
+            <h5> Auto-formación, HTML5, CSS3, PHP </h5>
             <a target="_blank" href="http://www.colorslocals.com">www.colorslocals.com </a>
           </div>
         </div>
@@ -100,8 +122,7 @@
           <div class="comment">
             <h4> IUT de Blagnac </h4>
             <h6> (09/2014 --> 06/2016) </h6>
-            <h5> Conception et développement
-              d’applications web et logiciel, Gestion de projet </h5>
+            <h5> Diseño y desarollo de aplicaciones web y software, gestión de proyectos  </h5>
             <h5> Java, PYTHON, C, PHP, JSON, HTML, CSS, MySQL, Android </h5>
             <a target="_blank" href="http://www.iut-blagnac.fr/">www.iut-blagnac.com </a>
           </div>
@@ -111,7 +132,7 @@
           <div class="comment">
             <h4> Lycée Comte de Foix </h4>
             <h6> (01/2014 -> 03/2014) </h6>
-            <h5> Développement d'un jeu de Snake </h5>
+            <h5> Desarollo d'un jeu de Snake </h5>
             <h5> Python </h5>
           </div>
         </div>

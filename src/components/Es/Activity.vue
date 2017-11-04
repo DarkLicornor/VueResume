@@ -4,31 +4,31 @@
     <div id="activity">
       <h1> Eventos</h1>
       <p class="subTitle">Conferencias, meetups, y encuentros donde voy</p>
-      <div class="experienceBlock">
-        <div class="experienceBlockContainer">
-          <h2>Voluntario</h2>
-          <div class="comment">
-            <h4> EclipseCon Europe </h4>
-            <h6> (10/2017) </h6>
-            <h5> Equipo de grabación </h5>
-            <h5> Grabación y gestión de conferencias </h5>
-            <a target="_blank" href="https://www.eclipsecon.org"> www.eclipsecon.org </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Estudiante</h2>
-          <div class="comment">
-            <h4> INSA Toulouse </h4>
-            <h6> (09/2017 --> ...) </h6>
-            <h5> Programación funcional, programación lógica, red,
-              gestión de proyectos, programación y concepción orientada objeto, sistemas de información,
-              software y redes seguridad, microcontroladores.
-            </h5>
-            <h5> Java, C, MySQL, XML, Ocaml, Prolog </h5>
-            <a target="_blank" href="http://www.insa-toulouse.fr/en/index.html">www.insa-toulouse.fr/en/index.html</a>
-          </div>
-        </div>
       <div class="activityBlock">
+        <div class="activityBlockContainer">
+        <a target="_blank" href="www.eclipsecon.org">
+          <img src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png'>
+        </a>
+        <div class="comment">
+          <h4> EclipseCon Francia y Europa </h4>
+          <h6> (09/2016 y 09/2017, Alemania y 06/2016 y 06/2017, Francia) </h6>
+          <h5> Conferencias, WorkShops - Applicaciones y software desarollo,
+            mobile desarollo, Grabaciones y gestion de conferencias -
+             Eclipse, IoT, JAVA, PHP, JavaScript </h5>
+        </div>
+      </div>
+
+      <div class="activityBlockContainer">
+        <a target="_blank">
+          <img src='https://pbs.twimg.com/media/DAf_1bnXsAACVds.jpg'>
+        </a>
+        <div class="comment">
+          <h4> CodeFest </h4>
+          <h6> (06/2017, Francia) </h6>
+          <h5> Hackaton, trabajo en equipo, JavaScript, ReactJS, OCR, UX - 1era posición</h5>
+        </div>
+      </div>
+
         <div class="activityBlockContainer">
           <a target="_blank" href="https://hashcode.withgoogle.com/">
             <img src='https://hashcode.withgoogle.com/resources/social/twitter_v1.png'>
@@ -46,18 +46,7 @@
           <div class="comment">
             <h4> CyberSecurity Challenge UK </h4>
             <h6> (02/2017, Inglaterra & 09/2016, Escocia) </h6>
-            <h5> CTF, Talks, IT Quizz - 2ème position </h5>
-          </div>
-        </div>
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.eclipsecon.org">
-            <img src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png'>
-          </a>
-          <div class="comment">
-            <h4> EclipseCon France et Europe </h4>
-            <h6> (09/2016, Allemagne et 06/2016, France) </h6>
-            <h5> Conférences, WorkShops - développement d’applications web et
-              logiciel, Eclipse, IoT, JAVA, PHP, JavaScript </h5>
+            <h5> CTF, Talks, IT Quizz - 2da posición </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -66,7 +55,7 @@
           </a>
           <div class="comment">
             <h4> OpenGento </h4>
-            <h6> (06/2016, France) </h6>
+            <h6> (06/2016, Francia) </h6>
             <h5> WorkShops, Team building </h5>
             <h5> Magento, PHP, ReactJS, ES6 </h5>
           </div>
@@ -77,10 +66,10 @@
           </a>
           <div class="comment">
             <h4> SudWeb </h4>
-            <h6> (05/2016, France) </h6>
-            <h5> Conférences, WorkShops </h5>
-            <h5> développement d’applications web et logiciel,
-              UX, Gestion de projet et de relations clients </h5>
+            <h6> (05/2016, Francia) </h6>
+            <h5> Conferencias, WorkShops </h5>
+            <h5> Desarollo de aplicaciones web y software,
+              UX, Gestión de proyectos y de relaciones clientes </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -89,8 +78,8 @@
           </a>
           <div class="comment">
             <h4> Nuit de l'info </h4>
-            <h6> (12/2015 et 12/2014, France) </h6>
-            <h5> WHackaton, Travail d’équipe, design,  JAVASCRIPT, SQL </h5>
+            <h6> (12/2015 y 12/2014, Francia) </h6>
+            <h5> Hackaton, Trabajo en equipo, design, JavaScript, SQL </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -99,9 +88,9 @@
           </a>
           <div class="comment">
             <h4> ToulouseJS </h4>
-            <h6> (2015 -> 2016, France) </h6>
-            <h5> Conférences, Meetings </h5>
-            <h5> Nouveautés Javascript, frameworks </h5>
+            <h6> (2015 -> 2016, Francia) </h6>
+            <h5> Conferencias, Meetings </h5>
+            <h5> Novedades Javascript, frameworks </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -110,14 +99,15 @@
           </a>
           <div class="comment">
             <h4> AperoWeb </h4>
-            <h6> (2015 -> 2016, France) </h6>
-            <h5> Conférences, Meetings </h5>
-            <h5> IT, Développement web, IoT </h5>
+            <h6> (2015 -> 2016, Francia) </h6>
+            <h5> Conferencias, Meetings </h5>
+            <h5> IT, Desarollo web, IoT </h5>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>

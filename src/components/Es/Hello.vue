@@ -25,16 +25,16 @@
     </div>
     <div v-if="screenWidth > 1000" class="menu">
       <ul>
-        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-else><a href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-else><a href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-else><a href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experiences</a></li>
-        <li v-else><a href="#" v-scroll-to="'#experience'">Work experiences</a></li>
-        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Events</a></li>
-        <li v-else ><a href="#" v-scroll-to="'#activity'">Events</a></li>
+        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Inicio</a></li>
+        <li v-else><a href="#" v-scroll-to="'#home'">Inicio</a></li>
+        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">Hablando de mi</a></li>
+        <li v-else><a href="#" v-scroll-to="'#about'">Hablando de mi</a></li>
+        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Habilidades</a></li>
+        <li v-else><a href="#" v-scroll-to="'#skills'">Habilidades</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Experiencia profesional</a></li>
+        <li v-else><a href="#" v-scroll-to="'#experience'">Experiencia profesional</a></li>
+        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Eventos</a></li>
+        <li v-else ><a href="#" v-scroll-to="'#activity'">Eventos</a></li>
         <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
       </ul>
     </div>
@@ -43,16 +43,16 @@
     </div>
     <div v-if="menuOpen == true" class="hamburgerMenu">
       <ul>
-        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-else><a href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-else><a href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-else><a href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experiences</a></li>
-        <li v-else><a href="#" v-scroll-to="'#experience'">Work experiences</a></li>
-        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Events</a></li>
-        <li v-else ><a href="#" v-scroll-to="'#activity'">Events</a></li>
+        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Inicio</a></li>
+        <li v-else><a href="#" v-scroll-to="'#home'">Inicio</a></li>
+        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">Hablando de mi</a></li>
+        <li v-else><a href="#" v-scroll-to="'#about'">Hablando de mi</a></li>
+        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Habilidades</a></li>
+        <li v-else><a href="#" v-scroll-to="'#skills'">Habilidades</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Experiencia profesional</a></li>
+        <li v-else><a href="#" v-scroll-to="'#experience'">Experiencia profesional</a></li>
+        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Eventos</a></li>
+        <li v-else ><a href="#" v-scroll-to="'#activity'">Eventos</a></li>
         <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
       </ul>
     </div>
