@@ -60,7 +60,7 @@
               </tr>
               <tr>
                 <td style="background: #9b59b6;">C</td>
-                <td>Notions</td>
+                <td>Beginner</td>
               </tr>
             </table>
           </div>
