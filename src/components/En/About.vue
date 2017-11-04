@@ -1,7 +1,7 @@
 <template>
   <div id='about'>
     <h1> About me</h1>
-    <p class='subTitle'>Curious, passionate, andorran and determinated</p>
+    <p class='subTitle'>Curious, passionate, andorran and determined</p>
     <div class='aboutBlock'>
       <div class='aboutBlockContainer'>
         <img src='../../../static/images/like.svg'>
@@ -19,9 +19,9 @@
         <div class='comment'>
           <p>Sexism</p>
           <p>Mornings</p>
-          <p>Hangover</p>
+          <p>Hangovers</p>
           <p>Monday mornings</p>
-          <p>Coconut</p>
+          <p>Coconuts</p>
           <p>Stereotypes</p>
         </div>
       </div>
@@ -36,7 +36,7 @@
       <div class='aboutBlockContainer'>
         <img src='../../../static/images/school-bus.svg'>
         <div class='comment'>
-          <p>4th year, specialisation Computing Science - France - INSA Toulouse</p>
+          <p>4th year, specialisation Computer Science - France - INSA Toulouse</p>
           <p>Degree - Scotland - Robert Gordon University</p>
           <p>DUT Computer Science - France - IUT de Blagnac</p>
           <p>Baccalaureate - Andorra - Lycée Comte de Foix</p>

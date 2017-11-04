@@ -31,8 +31,8 @@
         <li v-else><a href="#" v-scroll-to="'#about'">About me</a></li>
         <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Skills</a></li>
         <li v-else><a href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experiences</a></li>
-        <li v-else><a href="#" v-scroll-to="'#experience'">Work experiences</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experience</a></li>
+        <li v-else><a href="#" v-scroll-to="'#experience'">Work experience</a></li>
         <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Events</a></li>
         <li v-else ><a href="#" v-scroll-to="'#activity'">Events</a></li>
         <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
@@ -49,8 +49,8 @@
         <li v-else><a href="#" v-scroll-to="'#about'">About me</a></li>
         <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Skills</a></li>
         <li v-else><a href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experiences</a></li>
-        <li v-else><a href="#" v-scroll-to="'#experience'">Work experiences</a></li>
+        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experience</a></li>
+        <li v-else><a href="#" v-scroll-to="'#experience'">Work experience</a></li>
         <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Events</a></li>
         <li v-else ><a href="#" v-scroll-to="'#activity'">Events</a></li>
         <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>

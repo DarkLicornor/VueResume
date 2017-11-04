@@ -3,7 +3,7 @@
     <div class="parallax"></div>
     <div id="activity">
       <h1> Events </h1>
-      <p class="subTitle">Confs, meetups, and cool meetings where I've been</p>
+      <p class="subTitle">Cons, meetups, and cool meetings where I've been</p>
       <div class="activityBlock">
 
         <div class="activityBlockContainer">
@@ -13,8 +13,8 @@
           <div class="comment">
             <h4> EclipseCon France et Europe </h4>
             <h6> (09/2016 and 09/2017, Germany and 06/2016 and 06/2017, France) </h6>
-            <h5> Conferences, WorkShops - Application and software development,
-              mobile development, Talks recording, Talks Management,
+            <h5> Conferences, workshops - application and software development,
+               mobile development, talk recording, talk management,
                Eclipse, IoT, JAVA, PHP, JavaScript </h5>
           </div>
         </div>
@@ -26,7 +26,7 @@
           <div class="comment">
             <h4> CodeFest </h4>
             <h6> (06/2017, France) </h6>
-            <h5> Hackaton, teamwork, JavaScript, ReactJS, OCR, UX - 1st place</h5>
+            <h5> Hackathon, teamwork, JavaScript, ReactJS, OCR, UX - 1st place</h5>
           </div>
         </div>
 
@@ -37,7 +37,7 @@
           <div class="comment">
             <h4> Google HashCode </h4>
             <h6> (02/2017, Scotland) </h6>
-            <h5> Hackaton, teamwork, JavaScript, Algorithmic </h5>
+            <h5> Hackathon, teamwork, JavaScript, Algorithmic </h5>
           </div>
         </div>
 
@@ -48,7 +48,7 @@
           <div class="comment">
             <h4> CyberSecurity Challenge UK </h4>
             <h6> (02/2017, England & 09/2016, Scotland) </h6>
-            <h5> CTF, Talks, IT Quizz - 2nd place </h5>
+            <h5> CTF, talks, IT Quizz - 2nd place </h5>
           </div>
         </div>
 
@@ -59,7 +59,7 @@
           <div class="comment">
             <h4> OpenGento </h4>
             <h6> (06/2016, France) </h6>
-            <h5> WorkShops, Team building </h5>
+            <h5> Workshops, team building </h5>
             <h5> Magento, PHP, ReactJS, ES6 </h5>
           </div>
         </div>
@@ -70,9 +70,9 @@
           <div class="comment">
             <h4> SudWeb </h4>
             <h6> (05/2016, France) </h6>
-            <h5> Conferences, WorkShops </h5>
+            <h5> Conferences, Workshops </h5>
             <h5> Web and Mobile development,
-              UX, Project management and client relations</h5>
+              UX, project management and client relations</h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -82,7 +82,7 @@
           <div class="comment">
             <h4> Nuit de l'info </h4>
             <h6> (12/2015 and 12/2014, France) </h6>
-            <h5> Hackaton, Teamwork, Design, JavaScript, SQL </h5>
+            <h5> Hackathon, teamwork, design, JavaScript, SQL </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
@@ -92,7 +92,7 @@
           <div class="comment">
             <h4> ToulouseJS </h4>
             <h6> (2015 -> 2016, France) </h6>
-            <h5> Conferences, Meetings </h5>
+            <h5> Conferences, meetings </h5>
             <h5> Javascript news, frameworks </h5>
           </div>
         </div>
@@ -103,7 +103,7 @@
           <div class="comment">
             <h4> AperoWeb </h4>
             <h6> (2015 -> 2016, France) </h6>
-            <h5> Conferences, Meetings </h5>
+            <h5> Conferences, meetings </h5>
             <h5> IT, Web development, IoT </h5>
           </div>
         </div>

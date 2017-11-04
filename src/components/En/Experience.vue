@@ -3,7 +3,7 @@
     <div class="parallax"></div>
     <div id="experience">
       <h1>Work experiences </h1>
-      <p class="subTitle">Internships, jobs et other professional experiences</p>
+      <p class="subTitle">Internships, jobs and other professional experience</p>
       <div class="experienceBlock">
         <div class="experienceBlockContainer">
           <h2>Volunteer</h2>
