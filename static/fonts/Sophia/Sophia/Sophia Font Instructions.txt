@@ -1,13 +1,13 @@
 
 Sophia - instructions for alternate Sophia Left and Sophia Right
 
-Sophia was deigned with lower case character sets in mind, although upper case letters are available.  These 3 font files are identical other than the “Left” having Initial forms (ornaments on the left) and the “Right” terminal forms (ornaments on the right).
+Sophia was deigned with lower case character sets in mind, although upper case letters are available.  These 3 font files are identical other than the ï¿½Leftï¿½ having Initial forms (ornaments on the left) and the ï¿½Rightï¿½ terminal forms (ornaments on the right).
 In turn, creating decorated word sequences. Start and end your words with a lovely swirl effect. 
 
 This family of fonts is usable in all programs; however, not all programs allow control over manual character spacing. You may find it quite disappointing.
 
 Instructions are specific to AI Illustrator and The Touch Type Tool.
-Sophia Left and Right are available in all programs, but will require minor adjustments, if you don't mind a few seconds of extra work, and have the know how, please feel free.  Of course, there are various ways here is one I’ve used.
+Sophia Left and Right are available in all programs, but will require minor adjustments, if you don't mind a few seconds of extra work, and have the know how, please feel free.  Of course, there are various ways here is one Iï¿½ve used.
 
 Illustrator:
 

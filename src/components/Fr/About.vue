@@ -1,11 +1,11 @@
 <template>
-  <div id='about'>
-    <h1> A propos de moi</h1>
-    <p class='subTitle'>Curieuse et passionnée, andorrane et déterminée</p>
-    <div class='aboutBlock'>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/like.svg'>
-        <div class='comment'>
+  <div id="about">
+    <h1>A propos de moi</h1>
+    <p class="subTitle">Curieuse et passionnée, andorrane et déterminée</p>
+    <div class="aboutBlock">
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/like.svg" />
+        <div class="comment">
           <p>Dessiner</p>
           <p>La neige</p>
           <p>Les meetups</p>
@@ -14,9 +14,9 @@
           <p>Voyager</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/dislike.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/dislike.svg" />
+        <div class="comment">
           <p>Le sexisme</p>
           <p>Le matin</p>
           <p>La gueule de bois</p>
@@ -25,26 +25,26 @@
           <p>Les stéréotypes</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/home.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/home.svg" />
+        <div class="comment">
           <p>France pendant 6 ans</p>
           <p>Andorre pendant 13 ans</p>
           <p>Écosse pendant 1 an</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/school-bus.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/school-bus.svg" />
+        <div class="comment">
           <p>4ème année spécialité Informatique - France - INSA Toulouse</p>
           <p>Degree (eq. License) - Robert Gordon University</p>
           <p>DUT Informatique - France - IUT de Blagnac</p>
           <p>Baccalauréat - Andorre - Lycée Comte de Foix</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/language.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/language.svg" />
+        <div class="comment">
           <p>Français bilingue</p>
           <p>Anglais courant</p>
           <p>Catalan courant</p>
@@ -56,14 +56,14 @@
 </template>
 
 <script>
-import WebChart from '../WebChart.vue'
-import SoftwareChart from '../SoftwareChart.vue'
+import WebChart from "../WebChart.vue";
+import SoftwareChart from "../SoftwareChart.vue";
 export default {
   components: {
     SoftwareChart,
     WebChart
   }
-}
+};
 </script>
 
 <style scoped>
@@ -94,7 +94,7 @@ export default {
 .comment {
   padding-left: 1em;
   width: 20em;
-  border-left: solid 2px #14A0C5;
+  border-left: solid 2px #14a0c5;
 }
 
 img {
@@ -117,13 +117,13 @@ h1 {
   text-align: center;
 }
 
-p, td {
+p,
+td {
   font-family: comfortaa, sans-serif;
 }
 
-
 /*Small screens*/
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   #about {
     width: 100%;
   }
