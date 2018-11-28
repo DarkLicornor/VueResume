@@ -2,93 +2,119 @@
   <div>
     <div class="parallax"></div>
     <div id="activity">
-      <h1> Evénements</h1>
-      <p class="subTitle">Confs, meetups, et rencontres cools auxquelles je vais</p>
+      <h1>Evénements</h1>
+      <p class="subTitle">
+        Confs, meetups, et rencontres cools auxquelles je vais
+      </p>
       <div class="activityBlock">
         <div class="activityBlockContainer">
           <a target="_blank" href="www.eclipsecon.org">
-            <img src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png'>
+            <img
+              src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png"
+            />
           </a>
           <div class="comment">
-            <h4> EclipseCon France et Europe </h4>
-            <h6> (09/2016 et 09/2017, Allemagne et 06/2016 et 06/2017, France) </h6>
-            <h5> Conférences, WorkShops - développement d’applications web et
-              logiciel, Eclipse, IoT, JAVA, PHP, JavaScript </h5>
+            <h4>EclipseCon France et Europe</h4>
+            <h6>
+              (09/2016 et 09/2017, Allemagne et 06/2016 et 06/2017, France)
+            </h6>
+            <h5>
+              Conférences, WorkShops - développement d’applications web et
+              logiciel, Eclipse, IoT, JAVA, PHP, JavaScript
+            </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="https://hashcode.withgoogle.com/">
-            <img src='https://hashcode.withgoogle.com/resources/social/twitter_v1.png'>
+            <img
+              src="https://hashcode.withgoogle.com/resources/social/twitter_v1.png"
+            />
           </a>
           <div class="comment">
-            <h4> Google HashCode </h4>
-            <h6> (02/2017, Ecosse) </h6>
-            <h5> Hackaton, travail d'équipe, JavaScript, Algorithmique avancée </h5>
+            <h4>Google HashCode</h4>
+            <h6>(02/2017, Ecosse)</h6>
+            <h5>
+              Hackaton, travail d'équipe, JavaScript, Algorithmique avancée
+            </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="www.cybersecuritychallenge.org.uk">
-            <img src='https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png'>
+            <img
+              src="https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png"
+            />
           </a>
           <div class="comment">
-            <h4> CyberSecurity Challenge UK </h4>
-            <h6> (02/2017, Angleterre & 09/2016, Ecosse) </h6>
-            <h5> CTF, Talks, IT Quizz - 2ème position </h5>
+            <h4>CyberSecurity Challenge UK</h4>
+            <h6>(02/2017, Angleterre & 09/2016, Ecosse)</h6>
+            <h5>CTF, Talks, IT Quizz - 2ème position</h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="www.opengento.fr">
-            <img src='https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg'>
+            <img
+              src="https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg"
+            />
           </a>
           <div class="comment">
-            <h4> OpenGento </h4>
-            <h6> (06/2016, France) </h6>
-            <h5> WorkShops, Team building </h5>
-            <h5> Magento, PHP, ReactJS, ES6 </h5>
+            <h4>OpenGento</h4>
+            <h6>(06/2016, France)</h6>
+            <h5>WorkShops, Team building</h5>
+            <h5>Magento, PHP, ReactJS, ES6</h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="www.sudweb.fr/">
-            <img src='https://pbs.twimg.com/profile_images/692094055111598082/30n-OWOC.png'>
+            <img
+              src="https://pbs.twimg.com/profile_images/692094055111598082/30n-OWOC.png"
+            />
           </a>
           <div class="comment">
-            <h4> SudWeb </h4>
-            <h6> (05/2016, France) </h6>
-            <h5> Conférences, WorkShops </h5>
-            <h5> développement d’applications web et logiciel,
-              UX, Gestion de projet et de relations clients </h5>
+            <h4>SudWeb</h4>
+            <h6>(05/2016, France)</h6>
+            <h5>Conférences, WorkShops</h5>
+            <h5>
+              développement d’applications web et logiciel, UX, Gestion de
+              projet et de relations clients
+            </h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="http://www.nuitdelinfo.com/">
-            <img src='https://pbs.twimg.com/profile_images/532339903/infos-nuit_info_logo_simple_400x400.png'>
+            <img
+              src="https://pbs.twimg.com/profile_images/532339903/infos-nuit_info_logo_simple_400x400.png"
+            />
           </a>
           <div class="comment">
-            <h4> Nuit de l'info </h4>
-            <h6> (12/2015 et 12/2014, France) </h6>
-            <h5> WHackaton, Travail d’équipe, design,  JAVASCRIPT, SQL </h5>
+            <h4>Nuit de l'info</h4>
+            <h6>(12/2015 et 12/2014, France)</h6>
+            <h5>WHackaton, Travail d’équipe, design, JAVASCRIPT, SQL</h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="www.toulousejs.francejs.org">
-            <img src='https://pbs.twimg.com/profile_images/785806413037707264/P57kaRFv.jpg'>
+            <img
+              src="https://pbs.twimg.com/profile_images/785806413037707264/P57kaRFv.jpg"
+            />
           </a>
           <div class="comment">
-            <h4> ToulouseJS </h4>
-            <h6> (2015 -> 2016, France) </h6>
-            <h5> Conférences, Meetings </h5>
-            <h5> Nouveautés Javascript, frameworks </h5>
+            <h4>ToulouseJS</h4>
+            <h6>(2015 -> 2016, France)</h6>
+            <h5>Conférences, Meetings</h5>
+            <h5>Nouveautés Javascript, frameworks</h5>
           </div>
         </div>
         <div class="activityBlockContainer">
           <a target="_blank" href="www.toulouse.aperoweb.fr">
-            <img src='https://pbs.twimg.com/profile_images/1652182596/aperoweb_400x400.png'>
+            <img
+              src="https://pbs.twimg.com/profile_images/1652182596/aperoweb_400x400.png"
+            />
           </a>
           <div class="comment">
-            <h4> AperoWeb </h4>
-            <h6> (2015 -> 2016, France) </h6>
-            <h5> Conférences, Meetings </h5>
-            <h5> IT, Développement web, IoT </h5>
+            <h4>AperoWeb</h4>
+            <h6>(2015 -> 2016, France)</h6>
+            <h5>Conférences, Meetings</h5>
+            <h5>IT, Développement web, IoT</h5>
           </div>
         </div>
       </div>
@@ -97,14 +123,14 @@
 </template>
 
 <script>
-import WebChart from '../WebChart.vue'
-import SoftwareChart from '../SoftwareChart.vue'
+import WebChart from "../WebChart.vue";
+import SoftwareChart from "../SoftwareChart.vue";
 export default {
   components: {
     SoftwareChart,
     WebChart
   }
-}
+};
 </script>
 
 <style scoped>
@@ -148,7 +174,7 @@ export default {
 .comment {
   padding: 1em;
   width: 20em;
-  border-left: solid 2px #14A0C5;
+  border-left: solid 2px #14a0c5;
 }
 
 img {
@@ -163,8 +189,8 @@ h1 {
   text-align: center;
 }
 
-
-h4, h6 {
+h4,
+h6 {
   display: inline;
 }
 
@@ -196,13 +222,13 @@ h6 {
   text-align: center;
 }
 
-p, td {
+p,
+td {
   font-family: comfortaa, sans-serif;
 }
 
-
 /*Small screens*/
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   #activity {
     width: 100%;
   }

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <En />
+    <!-- <router-view></router-view> -->
     <link
       href="https://fonts.googleapis.com/css?family=Arvo"
       rel="stylesheet"
@@ -9,9 +10,10 @@
 </template>
 
 <script>
+import En from "./components/En.vue";
 export default {
   name: "app",
-  components: {}
+  components: { En }
 };
 </script>
 

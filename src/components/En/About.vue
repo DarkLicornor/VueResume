@@ -1,56 +1,57 @@
 <template>
   <div id="about">
-    <h1>About me</h1>
-    <p class="subTitle">Curious, passionate, andorran and determined</p>
+    <h1>{{ $t("about.title") }}</h1>
+    <p class="subTitle">{{ $t("about.subTitle") }}</p>
     <div class="aboutBlock">
       <div class="aboutBlockContainer">
         <img src="../../../static/images/like.svg" />
         <div class="comment">
-          <p>Drawing</p>
-          <p>Snow</p>
-          <p>Meetups</p>
-          <p>Skating</p>
-          <p>Drama</p>
-          <p>Traveling</p>
+          <p>{{ $t("about.like.drawing") }}</p>
+          <p>{{ $t("about.like.snow") }}</p>
+          <p>{{ $t("about.like.meetups") }}</p>
+          <p>{{ $t("about.like.skating") }}</p>
+          <p>{{ $t("about.like.drama") }}</p>
+          <p>{{ $t("about.like.traveling") }}</p>
         </div>
       </div>
       <div class="aboutBlockContainer">
         <img src="../../../static/images/dislike.svg" />
         <div class="comment">
-          <p>Sexism</p>
-          <p>Mornings</p>
-          <p>Hangovers</p>
-          <p>Monday mornings</p>
-          <p>Coconuts</p>
-          <p>Stereotypes</p>
+          <p>{{ $t("about.dislike.sexism") }}</p>
+          <p>{{ $t("about.dislike.mornings") }}</p>
+          <p>{{ $t("about.dislike.hangovers") }}</p>
+          <p>{{ $t("about.dislike.monday") }}</p>
+          <p>{{ $t("about.dislike.coconuts") }}</p>
+          <p>{{ $t("about.dislike.stereotypes") }}</p>
         </div>
       </div>
       <div class="aboutBlockContainer">
         <img src="../../../static/images/home.svg" />
         <div class="comment">
-          <p>France for 6 years</p>
-          <p>Andorra for 13 years</p>
-          <p>Scotland for 1 year</p>
+          <p>{{ $t("about.places.germany") }}</p>
+          <p>{{ $t("about.places.france") }}</p>
+          <p>{{ $t("about.places.andorra") }}</p>
+          <p>{{ $t("about.places.scotland") }}</p>
         </div>
       </div>
       <div class="aboutBlockContainer">
         <img src="../../../static/images/school-bus.svg" />
         <div class="comment">
-          <p>
-            4th year, specialisation Computer Science - France - INSA Toulouse
-          </p>
-          <p>Degree - Scotland - Robert Gordon University</p>
-          <p>DUT Computer Science - France - IUT de Blagnac</p>
-          <p>Baccalaureate - Andorra - Lycée Comte de Foix</p>
+          <p>{{ $t("about.education.n7") }}</p>
+          <p>{{ $t("about.education.insa") }}</p>
+          <p>{{ $t("about.education.rgu") }}</p>
+          <p>{{ $t("about.education.iut") }}</p>
+          <p>{{ $t("about.education.lycee") }}</p>
         </div>
       </div>
       <div class="aboutBlockContainer">
         <img src="../../../static/images/language.svg" />
         <div class="comment">
-          <p>French bilingual</p>
-          <p>English usual</p>
-          <p>Catalan usual</p>
-          <p>Spanish usual</p>
+          <p>{{ $t("about.language.french") }}</p>
+          <p>{{ $t("about.language.english") }}</p>
+          <p>{{ $t("about.language.catalan") }}</p>
+          <p>{{ $t("about.language.spanish") }}</p>
+          <p>{{ $t("about.language.german") }}</p>
         </div>
       </div>
     </div>

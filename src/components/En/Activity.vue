@@ -5,131 +5,95 @@
       <h1>Events</h1>
       <p class="subTitle">Cons, meetups, and cool meetings where I've been</p>
       <div class="activityBlock">
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.eclipsecon.org">
-            <img
-              src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png"
-            />
-          </a>
-          <div class="comment">
-            <h4>EclipseCon France et Europe</h4>
-            <h6>
-              (09/2016 and 09/2017, Germany and 06/2016 and 06/2017, France)
-            </h6>
-            <h5>
-              Conferences, workshops - application and software development,
-              mobile development, talk recording, talk management, Eclipse, IoT,
-              JAVA, PHP, JavaScript
-            </h5>
-          </div>
-        </div>
+        <ActivityBlockContainer
+          href=" https://www.eclipsecon.org"
+          image="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png"
+          :title="$t('activity.ressi.title')"
+          :dates="$t('activity.ressi.dates')"
+          :description="$t('activity.ressi.description')"
+          :technos="$t('activity.ressi.technos')"
+        />
 
-        <div class="activityBlockContainer">
-          <a target="_blank">
-            <img src="https://pbs.twimg.com/media/DAf_1bnXsAACVds.jpg" />
-          </a>
-          <div class="comment">
-            <h4>CodeFest</h4>
-            <h6>(06/2017, France)</h6>
-            <h5>
-              Hackathon, teamwork, JavaScript, ReactJS, OCR, UX - 1st place
-            </h5>
-          </div>
-        </div>
+        <ActivityBlockContainer
+          href=" https://www.eclipsecon.org"
+          image="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png"
+          :title="$t('activity.ccc.title')"
+          :dates="$t('activity.ccc.dates')"
+          :description="$t('activity.ccc.description')"
+          :technos="$t('activity.ccc.technos')"
+        />
 
-        <div class="activityBlockContainer">
-          <a target="_blank" href="https://hashcode.withgoogle.com/">
-            <img
-              src="https://hashcode.withgoogle.com/resources/social/twitter_v1.png"
-            />
-          </a>
-          <div class="comment">
-            <h4>Google HashCode</h4>
-            <h6>(02/2017, Scotland)</h6>
-            <h5>Hackathon, teamwork, JavaScript, Algorithmic</h5>
-          </div>
-        </div>
+        <ActivityBlockContainer
+          href=" https://www.eclipsecon.org"
+          image="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png"
+          :title="$t('activity.ece.title')"
+          :dates="$t('activity.ece.dates')"
+          :description="$t('activity.ece.description')"
+          :technos="$t('activity.ece.technos')"
+        />
 
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.cybersecuritychallenge.org.uk">
-            <img
-              src="https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png"
-            />
-          </a>
-          <div class="comment">
-            <h4>CyberSecurity Challenge UK</h4>
-            <h6>(02/2017, England & 09/2016, Scotland)</h6>
-            <h5>CTF, talks, IT Quizz - 2nd place</h5>
-          </div>
-        </div>
+        <ActivityBlockContainer
+          href=" https://www.eclipsecon.org"
+          image="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489700459/eclipse.png"
+          :title="$t('activity.codefest.title')"
+          :dates="$t('activity.codefest.dates')"
+          :description="$t('activity.codefest.description')"
+          :technos="$t('activity.codefest.technos')"
+        />
 
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.opengento.fr">
-            <img
-              src="https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg"
-            />
-          </a>
-          <div class="comment">
-            <h4>OpenGento</h4>
-            <h6>(06/2016, France)</h6>
-            <h5>Workshops, team building</h5>
-            <h5>Magento, PHP, ReactJS, ES6</h5>
-          </div>
-        </div>
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.sudweb.fr/">
-            <img
-              src="https://pbs.twimg.com/profile_images/692094055111598082/30n-OWOC.png"
-            />
-          </a>
-          <div class="comment">
-            <h4>SudWeb</h4>
-            <h6>(05/2016, France)</h6>
-            <h5>Conferences, Workshops</h5>
-            <h5>
-              Web and Mobile development, UX, project management and client
-              relations
-            </h5>
-          </div>
-        </div>
-        <div class="activityBlockContainer">
-          <a target="_blank" href="http://www.nuitdelinfo.com/">
-            <img
-              src="https://pbs.twimg.com/profile_images/532339903/infos-nuit_info_logo_simple_400x400.png"
-            />
-          </a>
-          <div class="comment">
-            <h4>Nuit de l'info</h4>
-            <h6>(12/2015 and 12/2014, France)</h6>
-            <h5>Hackathon, teamwork, design, JavaScript, SQL</h5>
-          </div>
-        </div>
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.toulousejs.francejs.org">
-            <img
-              src="https://pbs.twimg.com/profile_images/785806413037707264/P57kaRFv.jpg"
-            />
-          </a>
-          <div class="comment">
-            <h4>ToulouseJS</h4>
-            <h6>(2015 -> 2016, France)</h6>
-            <h5>Conferences, meetings</h5>
-            <h5>Javascript news, frameworks</h5>
-          </div>
-        </div>
-        <div class="activityBlockContainer">
-          <a target="_blank" href="www.toulouse.aperoweb.fr">
-            <img
-              src="https://pbs.twimg.com/profile_images/1652182596/aperoweb_400x400.png"
-            />
-          </a>
-          <div class="comment">
-            <h4>AperoWeb</h4>
-            <h6>(2015 -> 2016, France)</h6>
-            <h5>Conferences, meetings</h5>
-            <h5>IT, Web development, IoT</h5>
-          </div>
-        </div>
+        <ActivityBlockContainer
+          href="https://www.cybersecuritychallenge.org.uk"
+          image="https://pbs.twimg.com/profile_images/517627913529593856/rFrlmBDt.png"
+          :title="$t('activity.cybersec.title')"
+          :dates="$t('activity.cybersec.dates')"
+          :description="$t('activity.cybersec.description')"
+          :technos="$t('activity.cybersec.technos')"
+        />
+
+        <ActivityBlockContainer
+          href=" https://www.opengento.fr"
+          image="https://pbs.twimg.com/profile_images/571264004626980864/SwWXYqfI.jpeg"
+          :title="$t('activity.opengento.title')"
+          :dates="$t('activity.opengento.dates')"
+          :description="$t('activity.opengento.description')"
+          :technos="$t('activity.opengento.technos')"
+        />
+
+        <ActivityBlockContainer
+          href=" https://www.sudweb.fr"
+          image="https://pbs.twimg.com/profile_images/692094055111598082/30n-OWOC.png"
+          :title="$t('activity.sudweb.title')"
+          :dates="$t('activity.sudweb.dates')"
+          :description="$t('activity.sudweb.description')"
+          :technos="$t('activity.sudweb.technos')"
+        />
+
+        <ActivityBlockContainer
+          href="http://www.nuitdelinfo.com/"
+          image="https://pbs.twimg.com/profile_images/532339903/infos-nuit_info_logo_simple_400x400.png"
+          :title="$t('activity.nuitinfo.title')"
+          :dates="$t('activity.nuitinfo.dates')"
+          :description="$t('activity.nuitinfo.description')"
+          :technos="$t('activity.nuitinfo.technos')"
+        />
+
+        <ActivityBlockContainer
+          href=" https://www.toulousejs.francejs.org"
+          image="https://pbs.twimg.com/profile_images/785806413037707264/P57kaRFv.jpg"
+          :title="$t('activity.toulousejs.title')"
+          :dates="$t('activity.toulousejs.dates')"
+          :description="$t('activity.toulousejs.description')"
+          :technos="$t('activity.toulousejs.technos')"
+        />
+
+        <ActivityBlockContainer
+          href=" https://www.toulouse.aperoweb.fr"
+          image="https://pbs.twimg.com/profile_images/1652182596/aperoweb_400x400.png"
+          :title="$t('activity.aperoweb.title')"
+          :dates="$t('activity.aperoweb.dates')"
+          :description="$t('activity.aperoweb.description')"
+          :technos="$t('activity.aperoweb.technos')"
+        />
       </div>
     </div>
   </div>
@@ -138,7 +102,10 @@
 <script>
 import WebChart from "../WebChart.vue";
 import SoftwareChart from "../SoftwareChart.vue";
-export default { components: { SoftwareChart, WebChart } };
+import ActivityBlockContainer from "./ActivityBlockContainer.vue";
+export default {
+  components: { SoftwareChart, WebChart, ActivityBlockContainer }
+};
 </script>
 
 <style scoped>

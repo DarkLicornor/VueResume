@@ -2,170 +2,120 @@
   <div>
     <div class="parallax"></div>
     <div id="experience">
-      <h1>Work experiences </h1>
-      <p class="subTitle">Internships, jobs and other professional experience</p>
+      <h1>{{ $t("jobexperiences.title") }}</h1>
+      <p class="subTitle">{{ $t("jobexperiences.subtitle") }}</p>
+      <p class="subSubTitle">{{ $t("jobexperiences.internships") }}</p>
       <div class="experienceBlock">
-        <div class="experienceBlockContainer">
-          <h2>Volunteer</h2>
-          <div class="comment">
-            <h4> EclipseCon Europe </h4>
-            <h6> (10/2017) </h6>
-            <h5> Recording crew </h5>
-            <h5> Talk recording and management </h5>
-            <a target="_blank" href="https://www.eclipsecon.org"> www.eclipsecon.org </a>
-          </div>
+        <ExperienceBlockContainer href="https://www.patagona.de"
+        :place=$t("jobexperiences.patagona.place")
+        :title=$t("jobexperiences.patagona.title")
+        :dates=$t("jobexperiences.patagona.dates")
+        :description=$t("jobexperiences.patagona.description")
+        :technos=$t("jobexperiences.patagona.technos") />
+        <ExperienceBlockContainer href="https://www.occitech.fr"
+        :place=$t("jobexperiences.occitech.place")
+        :title=$t("jobexperiences.occitech.title")
+        :dates=$t("jobexperiences.occitech.dates")
+        :description=$t("jobexperiences.occitech.description")
+        :technos=$t("jobexperiences.occitech.technos") />
+      </div>
+
+      <p class="subSubTitle">{{ $t("jobexperiences.volunteering") }}</p>
+      <div class="experienceBlock">
+        <ExperienceBlockContainer href="https://www.eclipsecon.org"
+        :place=$t("jobexperiences.ece.place")
+        :title=$t("jobexperiences.ece.title")
+        :dates=$t("jobexperiences.ece.dates")
+        :description=$t("jobexperiences.ece.description")
+        :technos=$t("jobexperiences.ece.technos") />
+      </div>
+
+      <p class="subSubTitle">{{ $t("jobexperiences.web") }}</p>
+      <div class="experienceBlock">
+        <ExperienceBlockContainer href="https://www.splang.fr"
+        :place=$t("jobexperiences.splang.place")
+        :title=$t("jobexperiences.splang.title")
+        :dates=$t("jobexperiences.splang.dates")
+        :description=$t("jobexperiences.splang.description")
+        :technos=$t("jobexperiences.splang.technos") />
+        <ExperienceBlockContainer href="https://www.label-route.fr"
+        :place=$t("jobexperiences.labelroute.place")
+        :title=$t("jobexperiences.labelroute.title")
+        :dates=$t("jobexperiences.labelroute.dates")
+        :description=$t("jobexperiences.labelroute.description")
+        :technos=$t("jobexperiences.labelroute.technos") />
+        <ExperienceBlockContainer href="https://www.pinandraw.azurewebsites.net"
+        :place=$t("jobexperiences.pinanddraw.place")
+        :title=$t("jobexperiences.pinanddraw.title")
+        :dates=$t("jobexperiences.pinanddraw.dates")
+        :description=$t("jobexperiences.pinanddraw.description")
+        :technos=$t("jobexperiences.pinanddraw.technos") />
+        <ExperienceBlockContainer
+        href="https://brusportlehen.azurewebsites.net/app/"
+        :place=$t("jobexperiences.sportlethen.place")
+        :title=$t("jobexperiences.sportlethen.title")
+        :dates=$t("jobexperiences.sportlethen.dates")
+        :description=$t("jobexperiences.sportlethen.description")
+        :technos=$t("jobexperiences.sportlethen.technos") />
+        <ExperienceBlockContainer href="https://www.checkyoursmile.fr"
+        :place=$t("jobexperiences.checkyoursmile.place")
+        :title=$t("jobexperiences.checkyoursmile.title")
+        :dates=$t("jobexperiences.checkyoursmile.dates")
+        :description=$t("jobexperiences.checkyoursmile.description")
+        :technos=$t("jobexperiences.checkyoursmile.technos") />
+        <ExperienceBlockContainer href="https://www.colorslocals.ad"
+        :place=$t("jobexperiences.colorslocals.place")
+        :title=$t("jobexperiences.colorslocals.title")
+        :dates=$t("jobexperiences.colorslocals.dates")
+        :description=$t("jobexperiences.colorslocals.description")
+        :technos=$t("jobexperiences.colorslocals.technos") />
+      </div>
+
+      <p class="subSubTitle">{{ $t("jobexperiences.mobile") }}</p>
+      <div class="experienceBlock">
+        <ExperienceBlockContainer href="https://www.envirocache.co.uk"
+        :place=$t("jobexperiences.envirocache.place")
+        :title=$t("jobexperiences.envirocache.title")
+        :dates=$t("jobexperiences.envirocache.dates")
+        :description=$t("jobexperiences.envirocache.description")
+        :technos=$t("jobexperiences.envirocache.technos") />
+      </div>
+
+      <div class="experienceBlockContainer">
+        <h2>Student</h2>
+        <div class="comment">
+          <h4>INSA Toulouse</h4>
+          <h6>(09/2017 --> ...)</h6>
+          <h5>
+            Functional programming, logical programming, network, project
+            management, object oriented programming and conception, information
+            systems, software and network security, microcontrollers. project
+            management
+          </h5>
+          <h5>Java, C, MySQL, XML, Ocaml, Prolog</h5>
+          <a target="_blank" href="http://www.insa-toulouse.fr/en/index.html"
+            >www.insa-toulouse.fr/en/index.html</a
+          >
         </div>
-        <div class="experienceBlockContainer">
-          <h2>Student</h2>
-          <div class="comment">
-            <h4> INSA Toulouse </h4>
-            <h6> (09/2017 --> ...) </h6>
-            <h5> Functional programming, logical programming, network,
-              project management, object oriented programming and conception, information systems,
-              software and network security, microcontrollers.
-              project management</h5>
-            <h5> Java, C, MySQL, XML, Ocaml, Prolog </h5>
-            <a target="_blank" href="http://www.insa-toulouse.fr/en/index.html">www.insa-toulouse.fr/en/index.html</a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Mobile developer</h2>
-          <div class="comment">
-            <h4> Envirocache </h4>
-            <h6> (12/2016 --> 05/2017) </h6>
-            <h5> App development </h5>
-            <h5> ReactNative, Atomic design, FireBase, ES6 </h5>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Web developer</h2>
-          <div class="comment">
-            <h4> Pin and Draw </h4>
-            <h6> (03/2017 --> 05/2017) </h6>
-            <h5> Conception, web development and projet management </h5>
-            <h5> VueJS, FireBase, API's, ES6 </h5>
-            <a target="_blank" href="https://pinanddraw.azurewebsites.net">pinanddraw.azurewebsites.net </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Web developper</h2>
-          <div class="comment">
-            <h4> Sportlethen </h4>
-            <h6> (10/2016 --> 12/2016) </h6>
-            <h5> Conception, web development and projet management</h5>
-            <h5> PHP, HTML5, CSS3 </h5>
-            <a target="_blank" href="https://brusportlehen.azurewebsites.net/app/">brusportlehen.azurewebsites.net/app/ </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Volunteer</h2>
-          <div class="comment">
-            <h4> EclipseCon Europe </h4>
-            <h6> (10/2016) </h6>
-            <h5> Recording crew </h5>
-            <h5> Talk recording and management </h5>
-            <a target="_blank" href="https://www.eclipsecon.org"> www.eclipsecon.org </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Volunteer</h2>
-          <div class="comment">
-            <h4> EclipseCon France </h4>
-            <h6> (06/2017) </h6>
-            <h5> Recording crew </h5>
-            <h5> Talk recording and management </h5>
-            <a target="_blank" href="https://www.eclipsecon.org">www.eclipsecon.org </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Student</h2>
-          <div class="comment">
-            <h4> Robert Gordon University </h4>
-            <h6> (09/2016 --> 06/2017) </h6>
-            <h5> Application software development, web development, conception,
-              project management</h5>
-            <h5> Java, C#, PHP, JavaScript, HTML5, CSS3, MySQL, NoSQL </h5>
-            <a target="_blank" href="http://www.rgu.ac.uk">www.rgu.ac.uk</a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Intern</h2>
-          <div class="comment">
-            <h4> Occitech </h4>
-            <h6> (04/2016 --> 07/2016) </h6>
-            <h5> App development </h5>
-            <h5> Web development - ReactJS, Atomic Design, Falcor, ES6, GraphQL </h5>
-            <a target="_blank" href="https://www.occitech.fr"> www.occitech.fr </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Volunteer</h2>
-          <div class="comment">
-            <h4> EclipseCon France </h4>
-            <h6> (06/2016) </h6>
-            <h5> Recording crew </h5>
-            <h5> Talk recording and management </h5>
-            <a target="_blank" href="https://www.eclipsecon.org">www.eclipsecon.org </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Web developer</h2>
-          <div class="comment">
-            <h4> Check your smile </h4>
-            <h6> (12/2015 --> 04/2016) </h6>
-            <h5> Web development and project management </h5>
-            <h5> JavaScript, OOPHP, MVC pattern, MySQL </h5>
-            <a target="_blank" href="https://www.checkyoursmile.fr">www.checkyoursmile.com </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Web developer</h2>
-          <div class="comment">
-            <h4> Colors locals </h4>
-            <h6> (07/2015 --> 09/2015) </h6>
-            <h5> Web development </h5>
-            <h5> Self-training, HTML5, CSS3, PHP </h5>
-            <a target="_blank" href="http://www.colorslocals.com">www.colorslocals.com </a>
-          </div>
-        </div>
-        <div class="experienceBlockContainer">
-          <h2>Student</h2>
-          <div class="comment">
-            <h4> IUT de Blagnac </h4>
-            <h6> (09/2014 --> 06/2016) </h6>
-            <h5> Web and software development and conception, project management </h5>
-            <h5> Java, PYTHON, C, PHP, JSON, HTML, CSS, MySQL, Android </h5>
-            <a target="_blank" href="http://www.iut-blagnac.fr/">www.iut-blagnac.com </a>
-          </div>
-        </div>
-        <!-- <div class="experienceBlockContainer">
-          <h2>Étudiante</h2>
-          <div class="comment">
-            <h4> Lycée Comte de Foix </h4>
-            <h6> (01/2014 -> 03/2014) </h6>
-            <h5> Développement d'un jeu de Snake </h5>
-            <h5> Python </h5>
-          </div>
-        </div>
-      -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import WebChart from '../WebChart.vue'
-import SoftwareChart from '../SoftwareChart.vue'
+import WebChart from "../WebChart.vue";
+import SoftwareChart from "../SoftwareChart.vue";
+import ExperienceBlockContainer from "./ExperienceBlockContainer.vue";
 export default {
   components: {
     SoftwareChart,
-    WebChart
+    WebChart,
+    ExperienceBlockContainer
   }
-}
+};
 </script>
 
 <style scoped>
-
 .parallax {
   background-image: url("../../../static/images/drawing.jpg");
 
@@ -205,7 +155,7 @@ export default {
 
 .comment {
   padding: 1em;
-  border-left: solid 2px #14A0C5;
+  border-left: solid 2px #14a0c5;
   width: 20em;
 }
 
@@ -237,10 +187,11 @@ h2 {
   margin: 0.4em;
   width: 4em;
   text-align: right;
-  color: #14A0C5;
+  color: #14a0c5;
 }
 
-h4, h6 {
+h4,
+h6 {
   display: inline;
 }
 
@@ -272,12 +223,13 @@ h6 {
   text-align: center;
 }
 
-p, td {
+p,
+td {
   font-family: comfortaa, sans-serif;
 }
 
 /*Small screens*/
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   #experience {
     width: 100%;
   }

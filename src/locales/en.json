@@ -1,3 +1,193 @@
 {
-  "message": "hello i18n !!"
+  "about": {
+    "title": "About me",
+    "subTitle": "Curious, passionate, andorran and determined",
+    "like": {
+      "drawing": "Drawing",
+      "snow": "Snow",
+      "meetups": "Meetups",
+      "skating": "Skating",
+      "drama": "Drama",
+      "traveling": "Traveling"
+    },
+    "dislike": {
+      "sexism": "Sexism",
+      "mornings": "Mornings",
+      "hangovers": "Hangovers",
+      "monday": "Monday mornings",
+      "coconuts": "Coconuts",
+      "stereotypes": "Stereotypes"
+    },
+    "places": {
+      "france": "France for 6 years",
+      "andorra": "Andorra for 13 years",
+      "germany": "Germany for 4 months",
+      "scotland": "Scotland for 1 year"
+    },
+    "education": {
+      "n7": "Masters - IT security - France - ENSEEIHT",
+      "insa": "Engineer diploma - Computer Science - France - INSA Toulouse",
+      "rgu": "Bachelors - Aplication Software Development - Scotland - Robert Gordon University",
+      "iut": "DUT - Computer Science - France - IUT de Blagnac",
+      "lycee": "Baccalaureate - Scientific - Andorra - Lycée Comte de Foix"
+    },
+    "language": {
+      "french": "C2",
+      "english": "C1",
+      "catalan": "B2",
+      "spanish": "B2",
+      "german": "A1"
+    }
+  },
+
+  "activity": {
+    "title": "Events",
+    "subTitle": "Cons, meetups, and cool meetings where I've been to",
+    "ressi": {
+      "title": "RESSI",
+      "dates": "(05/18, France)",
+      "description": "IT security research conference, Speaker",
+      "technos": ""
+    },
+    "ccc": {
+      "title": "34C3",
+      "dates": "(12/2017, Germany)",
+      "description": "Congress, CTF",
+      "technos": "IT security international conference, technology, society, utopia"
+    },
+    "ece": {
+      "title": "EclipseCon France et Europe",
+      "dates": "(06 and 10 2016, 2017, 2018, France and Germany)",
+      "description": "Conferences, workshops",
+      "technos": "Application and software development, mobile development, talk recording, talk management, Eclipse, IoT, JAVA, PHP, JavaScript"
+    },
+    "codefest": {
+      "title": "CodeFest",
+      "dates": "(06/2017, France)",
+      "description": "Hackaton, 1st place",
+      "technos": "Hackathon, teamwork, JavaScript, ReactJS, OCR, UX - 1st place"
+    },
+    "cybersec": {
+      "title": "CyberSecurity Challenge UK",
+      "dates": "(02/2017, England & 09/2016, Scotland)",
+      "description": "CTF, talks, IT Quizz - 2nd place",
+      "technos": ""
+    },
+    "opengento": {
+      "title": "OpenGento",
+      "dates": "(06/2016, France)",
+      "description": "Workshops, team building",
+      "technos": "Magento, PHP, ReactJS, ES6"
+    },
+    "sudweb": {
+      "title": "SudWeb",
+      "dates": "(05/2016, France)",
+      "description": "Conferences, workshops",
+      "technos": "  Web and Mobile development, UX, project management and client relations"
+    },
+    "nuitinfo": {
+      "title": "Nuit de l'info",
+      "dates": "(12/2014, 2015, 2017, 2018 and 12/2014, France)",
+      "description": "Conferences, workshops",
+      "technos": "Hackathon, teamwork, design, JavaScript, SQL"
+    },
+    "toulousejs": {
+      "title": "ToulouseJS",
+      "dates": "(2015 -> 2016, France)",
+      "description": "Conferences, meetings",
+      "technos": "Javascript news, frameworks"
+    },
+    "aperoweb": {
+      "title": "AperoWeb",
+      "dates": "(2015 -> 2016, France)",
+      "description": "Conferences, meetings",
+      "technos": "IT, Web development, IoT"
+    }
+  },
+
+  "jobexperiences": {
+    "title": "Job experiences",
+    "subTitle": "Internships, jobs, personal projects and other professional experience",
+    "volunteering": "Volunteering",
+    "internships": "Internships",
+    "web": "Web development & design",
+    "mobile": "Mobile development & design",
+    "ece": {
+      "title": "EclipseCon France et Europe",
+      "place": "Germany & France",
+      "dates": "06 and 10 2016, 2017, 2018",
+      "description": "Volunteering - Recording crew",
+      "technos": "Recruiting & managing the recording crew. Technical organisation and support for talks"
+    },
+    "patagona": {
+      "title": "Patagona",
+      "place": "Darmstadt, DE",
+      "dates": "06/2018 -> 09/2018",
+      "description": "Front-end development",
+      "technos": "Angular, LESS"
+    },
+    "occitech": {
+      "title": "Occitech",
+      "place": "Toulouse, FR",
+      "dates": "04/2016 -> 07/2016",
+      "description": "Mobile and web development",
+      "technos": "ReactJS, ReactNative, Atomic Design, Falcor, GraphQL"
+    },
+    "splang": {
+      "title": "SPLANG",
+      "place": "Toulouse, FR",
+      "dates": "04/2018 -> now",
+      "description": "Captive portal for French Guiana",
+      "technos": "PHP, MikroTik routers"
+    },
+    "labelroute": {
+      "title": "Label route",
+      "place": "Toulouse, FR",
+      "dates": "09/2017 -> 01/2018",
+      "description": "CMS like website",
+      "technos": "VueJS, Atomic Design, Firebase"
+    },
+    "vetopas": {
+      "title": "Vetopas",
+      "place": "Pas de la casa, AND",
+      "dates": "03/2018 -> now",
+      "description": "Veterinary website",
+      "technos": "VueJS"
+    },
+    "pinanddraw": {
+      "title": "Pin and Draw [PERSO]",
+      "place": "Aberdeen, UK",
+      "dates": "03/2017->05/2017",
+      "description": "Inspiration and references tool",
+      "technos": "ReactJS, Firebase, a lot of APIs"
+    },
+    "sportlethen": {
+      "title": "Sportlethen",
+      "place": "Aberdeen, UK",
+      "dates": "10/2016 -> 12/2016",
+      "description": "Local sports club page [UNI]",
+      "technos": "PHP, HTML5, CSS3"
+    },
+    "checkyoursmile": {
+      "title": "Check your smile",
+      "place": "Toulouse, FR",
+      "dates": "12/2015, 04/2016",
+      "description": "Technical english learning platform [UNI]",
+      "technos": "JS, OOPHP, MVC, MySQL"
+    },
+    "colorslocals": {
+      "title": "Colors locals",
+      "place": "Canillo, AND",
+      "dates": "07/2015 -> 09/2015",
+      "description": "3 display websites",
+      "technos": "Self-training, HTML5, CSS3, PHP"
+    },
+    "envirocache": {
+      "title": "Envirocache",
+      "place": "Aberdeen, UK",
+      "dates": "12/2016 -> 05/2017",
+      "description": "Proof of concept",
+      "technos": "ReactJS, Atomic design, Firebase"
+    }
+  }
 }

@@ -8,18 +8,18 @@ import En from "./components/En.vue";
 import Es from "./components/Es.vue";
 import Cat from "./components/Cat.vue";
 import Fr from "./components/Fr.vue";
-import i18n from './i18n'
+import i18n from "./i18n";
 
 Vue.config.productionTip = false;
 Vue.use(VueScrollTo);
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: En },
-  { path: "/en", component: En },
-  { path: "/es", component: Es },
-  { path: "/cat", component: Cat },
-  { path: "/fr", component: Fr }
+  { path: "/", component: En }
+  // { path: "/en", component: En },
+  // { path: "/es", component: Es },
+  // { path: "/cat", component: Cat },
+  // { path: "/fr", component: Fr }
 ];
 
 const router = new VueRouter({
