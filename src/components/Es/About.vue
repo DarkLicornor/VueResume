@@ -1,11 +1,11 @@
 <template>
-  <div id='about'>
-    <h1> Hablando de mi</h1>
-    <p class='subTitle'>Curiosa y apasionada, andorrana y decidida</p>
-    <div class='aboutBlock'>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/like.svg'>
-        <div class='comment'>
+  <div id="about">
+    <h1>Hablando de mi</h1>
+    <p class="subTitle">Curiosa y apasionada, andorrana y decidida</p>
+    <div class="aboutBlock">
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/like.svg" />
+        <div class="comment">
           <p>Dibujar</p>
           <p>La nieve</p>
           <p>Los meetups</p>
@@ -15,9 +15,9 @@
           <p>Viajar</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/dislike.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/dislike.svg" />
+        <div class="comment">
           <p>Sexismo</p>
           <p>La mañana</p>
           <p>La resaca</p>
@@ -26,26 +26,26 @@
           <p>Estereotipos</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/home.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/home.svg" />
+        <div class="comment">
           <p>Francia durante 6 años</p>
           <p>Andorra durante 13 años</p>
           <p>Escocia durante 1 años</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/school-bus.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/school-bus.svg" />
+        <div class="comment">
           <p>4to año especialidad informática- Francia - INSA Toulouse</p>
           <p>Degree (eq. Licencia) - Robert Gordon University</p>
           <p>DUT Informática - Francia - IUT de Blagnac</p>
           <p>Bachillerato - Andorra - Lycée Comte de Foix</p>
         </div>
       </div>
-      <div class='aboutBlockContainer'>
-        <img src='../../../static/images/language.svg'>
-        <div class='comment'>
+      <div class="aboutBlockContainer">
+        <img src="../../../static/images/language.svg" />
+        <div class="comment">
           <p>Francés bilingüe</p>
           <p>Inglés fluido</p>
           <p>Catalán fluido</p>
@@ -57,14 +57,14 @@
 </template>
 
 <script>
-import WebChart from '../WebChart.vue'
-import SoftwareChart from '../SoftwareChart.vue'
+import WebChart from "../WebChart.vue";
+import SoftwareChart from "../SoftwareChart.vue";
 export default {
   components: {
     SoftwareChart,
     WebChart
   }
-}
+};
 </script>
 
 <style scoped>
@@ -95,7 +95,7 @@ export default {
 .comment {
   padding-left: 1em;
   width: 20em;
-  border-left: solid 2px #14A0C5;
+  border-left: solid 2px #14a0c5;
 }
 
 img {
@@ -118,13 +118,13 @@ h1 {
   text-align: center;
 }
 
-p, td {
+p,
+td {
   font-family: comfortaa, sans-serif;
 }
 
-
 /*Small screens*/
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   #about {
     width: 100%;
   }

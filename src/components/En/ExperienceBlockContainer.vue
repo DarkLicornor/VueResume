@@ -2,9 +2,8 @@
   <div class="experienceBlockContainer">
     <h2>{{ title }}</h2>
     <div class="comment">
-      <h4>{{ place }}</h4>
-      <h6>{{ date }}</h6>
-      <h5>{{ description }}</h5>
+      <p>{{ dates }} - {{ place }}</p>
+      <h4>{{ description }}</h4>
       <h5>{{ technos }}</h5>
       <a target="_blank" :href="href">www.rgu.ac.uk</a>
     </div>
@@ -13,7 +12,7 @@
 
 <script>
 export default {
-  props: ["href", "place", "title", "date", "description", "technos"]
+  props: ["href", "place", "title", "dates", "description", "technos"]
 };
 </script>
 
@@ -29,7 +28,7 @@ export default {
 .comment {
   padding: 1em;
   border-left: solid 2px #14a0c5;
-  width: 20em;
+  width: 28em;
 }
 
 .comment a {
@@ -99,6 +98,11 @@ h6 {
 p,
 td {
   font-family: comfortaa, sans-serif;
+}
+
+p {
+  margin-top: 0;
+  font-style: italic;
 }
 
 /*Small screens*/

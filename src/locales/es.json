@@ -1,0 +1,208 @@
+{
+  "about": {
+    "title": "Hablando de mi",
+    "subTitle": "Curiosa y apasionada, andorrana y decidida",
+    "like": {
+      "drawing": "Dibujar",
+      "snow": "La nieve",
+      "meetups": "Los meetups",
+      "skating": "Patinaje",
+      "drama": "Teatro",
+      "traveling": "Viajar"
+    },
+    "dislike": {
+      "sexism": "Sexismo",
+      "mornings": "La mañana",
+      "hangovers": "La resaca",
+      "monday": "Los lunes por la mañana",
+      "coconuts": "Coco",
+      "stereotypes": "Estereotipos"
+    },
+    "places": {
+      "france": "Francia durante 6 años",
+      "andorra": "Andorra durante 13 años",
+      "germany": "Alemania durante 4 mesos",
+      "scotland": "Escocia durante 1 año"
+    },
+    "education": {
+      "n7": "Master - Seguridad informática - Francia - ENSEEIHT",
+      "insa": "Diploma de ingeniero - Informática & Redes - Francia - INSA Toulouse",
+      "rgu": "Bachelors - Application Software Development - Escocia - Robert Gordon University",
+      "iut": "DUT - Informática - Francia - IUT de Blagnac",
+      "lycee": "Bachillerato - Científico - Andorra - Lycée Comte de Foix"
+    },
+    "language": {
+      "french": "Francés (C2)",
+      "english": "Inglés (C1)",
+      "catalan": "Catalán (B2)",
+      "spanish": "Español (B2)",
+      "german": "Alemán (A1)"
+    }
+  },
+
+  "activity": {
+    "title": "Eventos",
+    "subTitle": "Conferencias, meetups, y encuentros donde voy",
+    "ressi": {
+      "title": "RESSI",
+      "dates": "(05/18, Francia)",
+      "description": "Conferencia de estudio en seguridad informática, Oradora",
+      "technos": ""
+    },
+    "ccc": {
+      "title": "34C3",
+      "dates": "(12/2017, Alemania)",
+      "description": "Congrès, CTF",
+      "technos": "Conferencia internacional en seguridad informática"
+    },
+    "ece": {
+      "title": "EclipseCon Francia y Europa",
+      "dates": "(06 y 10 de 2016, 2017, 2018, Francia y Alemania)",
+      "description": "Conferencias, workshops",
+      "technos": "Desarrollo móvil y de software, Eclipse, IoT, JAVA, PHP, JavaScript..."
+    },
+    "codefest": {
+      "title": "CodeFest",
+      "dates": "(06/2017, Francia)",
+      "description": "Hackaton, 1er lugar",
+      "technos": "Hackathon, trabajo en equipo, JavaScript, ReactJS, OCR, UX"
+    },
+    "cybersec": {
+      "title": "CyberSecurity Challenge UK",
+      "dates": "(02/2017, Inglaterra & 09/2016, Escocia)",
+      "description": "CTF, talks, IT Quizz - 2do lugar",
+      "technos": ""
+    },
+    "opengento": {
+      "title": "OpenGento",
+      "dates": "(06/2016, Francia)",
+      "description": "Workshops, team building",
+      "technos": "Magento, PHP, ReactJS, ES6"
+    },
+    "sudweb": {
+      "title": "SudWeb",
+      "dates": "(05/2016, Francia)",
+      "description": "Conferencias, workshops",
+      "technos": "Desarrollo web y móvil, UX, Agile, Gestión de proyecto, Relación cliente"
+    },
+    "nuitinfo": {
+      "title": "Nuit de l'info",
+      "dates": "(12/2014, 2015, 2017, 2018, Francia)",
+      "description": "Hackaton",
+      "technos": "Trabajo en equipo, Design, JavaScript, SQL, ReactJS, Firebase, ..."
+    },
+    "hackupc": {
+      "title": "HackUPC",
+      "dates": "(12/2014, 2015, 2017, 2018, España)",
+      "description": "Hackaton",
+      "technos": "Trabajo en equipo, Design, JavaScript, OCR"
+    },
+    "toulousejs": {
+      "title": "ToulouseJS",
+      "dates": "(2015 -> 2016, Francia)",
+      "description": "Conferencias, meetups",
+      "technos": "Novedades Javascript, frameworks"
+    },
+    "aperoweb": {
+      "title": "AperoWeb",
+      "dates": "(2015 -> 2016, Francia)",
+      "description": "Conferencias, meetups",
+      "technos": "IT, Desarrollo, Noticias digitales, IoT"
+    }
+  },
+
+  "jobexperiences": {
+    "title": "Mi experiencia profesional",
+    "subTitle": "Pasantías, trabajos y otras experiencias profesionales",
+    "volunteering": "Voluntariado",
+    "internships": "Pasantías",
+    "web": "Design & Desarrollo Web",
+    "mobile": "Design & Desarrollo Móvil",
+    "ece": {
+      "title": "EclipseCon Francia y Europa",
+      "place": "Alemania & Francia",
+      "dates": "06 y 10 de 2016, 2017, 2018",
+      "description": "Voluntaria - Equipo de grabación",
+      "technos": "Contratación y gestión del equipo sonido / vídeo. Organización técnica de la conferencia y soporte a los conferenciantes durante su talk."
+    },
+    "patagona": {
+      "title": "Patagona",
+      "place": "Darmstadt, DE",
+      "dates": "06/2018 -> 09/2018",
+      "description": "Desarrollo web front-end",
+      "technos": "Angular, LESS"
+    },
+    "occitech": {
+      "title": "Occitech",
+      "place": "Toulouse, FR",
+      "dates": "04/2016 -> 07/2016",
+      "description": "Desarrollo web & móvil",
+      "technos": "ReactJS, ReactNative, Atomic Design, Falcor, GraphQL"
+    },
+    "splang": {
+      "title": "SPLANG",
+      "place": "Toulouse, FR",
+      "dates": "04/2018 -> hoy",
+      "description": "Portal cautivo para la Guayana",
+      "technos": "PHP, routers MikroTik "
+    },
+    "labelroute": {
+      "title": "Label route",
+      "place": "Toulouse, FR",
+      "dates": "09/2017 -> 01/2018",
+      "description": "CMS simplificado para una autoescuela",
+      "technos": "VueJS, Atomic Design, Firebase"
+    },
+    "vetopas": {
+      "title": "Vetopas",
+      "place": "Pas de la casa, AND",
+      "dates": "03/2018 -> hoy",
+      "description": "Sitio veterinario",
+      "technos": "VueJS"
+    },
+    "pinanddraw": {
+      "title": "Pin and Draw",
+      "place": "Aberdeen, UK",
+      "dates": "03/2017->05/2017",
+      "description": "Herramienta para referencias e inspiración [PERSO]",
+      "technos": "ReactJS, Firebase, beaucoup d'APIs"
+    },
+    "sportlethen": {
+      "title": "Sportlethen",
+      "place": "Aberdeen, UK",
+      "dates": "10/2016 -> 12/2016",
+      "description": "Sitio para los clubs de deportes locales[UNI]",
+      "technos": "PHP, HTML5, CSS3"
+    },
+    "checkyoursmile": {
+      "title": "Check your smile",
+      "place": "Toulouse, FR",
+      "dates": "12/2015, 04/2016",
+      "description": "Plataforma de aprendizaje de vocabulario técnico [UNI]",
+      "technos": "JS, OOPHP, MVC, MySQL"
+    },
+    "colorslocals": {
+      "title": "Colors locals",
+      "place": "Canillo, AND",
+      "dates": "07/2015 -> 09/2015",
+      "description": "3 sitios web",
+      "technos": "Autoformación, HTML5, CSS3, PHP"
+    },
+    "envirocache": {
+      "title": "Envirocache",
+      "place": "Aberdeen, UK",
+      "dates": "12/2016 -> 05/2017",
+      "description": "Prueba de concepto (PokemonGo medioambiental)",
+      "technos": "ReactJS, Atomic design, Firebase"
+    }
+  },
+  "menu": {
+    "home": "Inicio",
+    "about": "Hablando de mi",
+    "skills": "Habilidades",
+    "jobexperience": "Experiencia profesional",
+    "event": "Eventos",
+    "cv": "CV"
+  },
+  "skills": {}
+}

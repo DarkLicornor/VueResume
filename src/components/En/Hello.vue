@@ -3,57 +3,139 @@
     <div class="container">
       <div class="info">
         <div class="infoContainer">
-          <p class="bracket1"> { </p><br>
-            <p> age : 20, </p><br>
-            <p> name:</p>
-            <h1> "Alexa NOËL", </h1><br>
-            <p> post: </p>
-            <h1>"Computing student", </h1><br>
-            <p>dream: "Be happy" </p><br>
-          <p class="bracket2"> } </p><br>
+          <p class="bracket1">{</p>
+          <br />
+          <p>age : 20,</p>
+          <br />
+          <p>name:</p>
+          <h1>"Alexa NOËL",</h1>
+          <br />
+          <p>post:</p>
+          <h1>"Computing student",</h1>
+          <br />
+          <p>dream: "Be happy"</p>
+          <br />
+          <p class="bracket2">}</p>
+          <br />
         </div>
       </div>
       <div class="socialMediaLine">
-        <a target="_blank" href="https://twitter.com/Alexa_Noel"><img src="../../../static/images/twitter.svg"></a>
-        <a target="_blank" href="https://github.com/DarkLicornor"><img style="width: 100%;" src="../../../static/images/github.png"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/alexa-n-86ab2a93/"><img src="../../../static/images/linkedin.svg"></a>
-        <a target="_blank" href="https://www.instagram.com/dark.licornor/?hl=fr"><img src="../../../static/images/instagram.svg"></a>
+        <a target="_blank" href="https://twitter.com/Alexa_Noel"
+          ><img src="../../../static/images/twitter.svg"
+        /></a>
+        <a target="_blank" href="https://github.com/DarkLicornor"
+          ><img style="width: 100%;" src="../../../static/images/github.png"
+        /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/alexa-n-86ab2a93/"
+          ><img src="../../../static/images/linkedin.svg"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/dark.licornor/?hl=fr"
+          ><img src="../../../static/images/instagram.svg"
+        /></a>
       </div>
       <div class="portrait">
-        <img src="../../../static/images/portrait.png">
+        <img src="../../../static/images/portrait.png" />
       </div>
     </div>
     <div v-if="screenWidth > 1000" class="menu">
       <ul>
-        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-else><a href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-else><a href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-else><a href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experience</a></li>
-        <li v-else><a href="#" v-scroll-to="'#experience'">Work experience</a></li>
-        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Events</a></li>
-        <li v-else ><a href="#" v-scroll-to="'#activity'">Events</a></li>
-        <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
+        <li v-if="hash == 'home'">
+          <a class="activeLink" href="#" v-scroll-to="'#home'">{{
+            $t("menu.home")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#home'">{{ $t("menu.home") }}</a>
+        </li>
+        <li v-if="hash == 'about'">
+          <a class="activeLink" href="#" v-scroll-to="'#about'">{{
+            $t("menu.about")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#about'">{{ $t("menu.about") }}</a>
+        </li>
+        <li v-if="hash == 'skills'">
+          <a class="activeLink" href="#" v-scroll-to="'#skills'">{{
+            $t("menu.skills")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#skills'">{{ $t("menu.skills") }}</a>
+        </li>
+        <li v-if="hash == 'experience'">
+          <a class="activeLink" href="#" v-scroll-to="'#experience'">{{
+            $t("menu.jobexperience")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#experience'">{{
+            $t("menu.jobexperience")
+          }}</a>
+        </li>
+        <li v-if="hash == 'activity'">
+          <a class="activeLink" href="#" v-scroll-to="'#activity'">{{
+            $t("menu.event")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#activity'">{{ $t("menu.event") }}</a>
+        </li>
+        <li>
+          <a target="_blank" href="../../static/cv.pdf">{{ $t("menu.cv") }}</a>
+        </li>
       </ul>
     </div>
     <div v-else class="hamburgerButton">
-      <img @click="toggleMenu" src="../../../static/images/menu.svg">
+      <img @click="toggleMenu" src="../../../static/images/menu.svg" />
     </div>
     <div v-if="menuOpen == true" class="hamburgerMenu">
       <ul>
-        <li v-if="hash == 'home'"><a class="activeLink" href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-else><a href="#" v-scroll-to="'#home'">Home</a></li>
-        <li v-if="hash == 'about'"><a class="activeLink" href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-else><a href="#" v-scroll-to="'#about'">About me</a></li>
-        <li v-if="hash == 'skills'"><a class="activeLink" href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-else><a href="#" v-scroll-to="'#skills'">Skills</a></li>
-        <li v-if="hash == 'experience'"><a class="activeLink" href="#" v-scroll-to="'#experience'">Work experience</a></li>
-        <li v-else><a href="#" v-scroll-to="'#experience'">Work experience</a></li>
-        <li v-if="hash == 'activity'"><a class="activeLink" href="#" v-scroll-to="'#activity'">Events</a></li>
-        <li v-else ><a href="#" v-scroll-to="'#activity'">Events</a></li>
-        <li><a target="_blank" href="../../static/cv.pdf">CV</a></form></li>
+        <li v-if="hash == 'home'">
+          <a class="activeLink" href="#" v-scroll-to="'#home'">{{
+            $t("menu.home")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#home'">{{ $t("menu.home") }}</a>
+        </li>
+        <li v-if="hash == 'about'">
+          <a class="activeLink" href="#" v-scroll-to="'#about'">{{
+            $t("menu.about")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#about'">{{ $t("menu.about") }}</a>
+        </li>
+        <li v-if="hash == 'skills'">
+          <a class="activeLink" href="#" v-scroll-to="'#skills'">{{
+            $t("menu.skills")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#skills'">{{ $t("menu.skills") }}</a>
+        </li>
+        <li v-if="hash == 'experience'">
+          <a class="activeLink" href="#" v-scroll-to="'#experience'">{{
+            $t("menu.jobexperience")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#experience'">{{
+            $t("menu.jobexperience")
+          }}</a>
+        </li>
+        <li v-if="hash == 'activity'">
+          <a class="activeLink" href="#" v-scroll-to="'#activity'">{{
+            $t("menu.event")
+          }}</a>
+        </li>
+        <li v-else>
+          <a href="#" v-scroll-to="'#activity'">{{ $t("menu.event") }}</a>
+        </li>
+        <li>
+          <a target="_blank" href="../../static/cv.pdf">{{ $t("menu.cv") }}</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -63,69 +145,69 @@
 export default {
   data() {
     return {
-      hash: 'home',
+      hash: "home",
       screenWidth: document.documentElement.clientWidth,
       screenHeight: window.innerHeight,
       menuOpen: false
-    }
+    };
   },
   methods: {
     goFr() {
-      this.$router.push({ path: 'fr' })
+      this.$router.push({ path: "fr" });
     },
     isScrolledIntoView(el) {
-      let elemTop = el.getBoundingClientRect().top
-      let elemBottom = el.getBoundingClientRect().bottom
-      let elemSize = elemBottom - elemTop
-      let isVisible
+      let elemTop = el.getBoundingClientRect().top;
+      let elemBottom = el.getBoundingClientRect().bottom;
+      let elemSize = elemBottom - elemTop;
+      let isVisible;
       if (
         elemSize > window.innerHeight &&
         elemBottom >= window.innerHeight &&
         elemTop <= 0
       ) {
-        isVisible = true
+        isVisible = true;
       } else if (
         elemSize < window.innerHeight &&
         elemBottom < window.innerHeight &&
         elemTop >= 0
       ) {
-        isVisible = true
+        isVisible = true;
       } else if (elemTop >= 0) {
-        isVisible = true
+        isVisible = true;
       } else {
-        isVisible = false
+        isVisible = false;
       }
-      return isVisible
+      return isVisible;
     },
     toggleMenu() {
-      this.menuOpen = !this.menuOpen
+      this.menuOpen = !this.menuOpen;
     }
   },
   mounted() {
-    let context = this
+    let context = this;
     window.setInterval(function() {
-      if (context.isScrolledIntoView(document.getElementById('home'))) {
-        context.hash = 'home'
-      } else if (context.isScrolledIntoView(document.getElementById('about'))) {
-        context.hash = 'about'
+      if (context.isScrolledIntoView(document.getElementById("home"))) {
+        context.hash = "home";
+      } else if (context.isScrolledIntoView(document.getElementById("about"))) {
+        context.hash = "about";
       } else if (
-        context.isScrolledIntoView(document.getElementById('skills'))
+        context.isScrolledIntoView(document.getElementById("skills"))
       ) {
-        context.hash = 'skills'
+        context.hash = "skills";
       } else if (
-        context.isScrolledIntoView(document.getElementById('experience'))
+        context.isScrolledIntoView(document.getElementById("experience"))
       ) {
-        context.hash = 'experience'
+        context.hash = "experience";
       } else if (
-        context.isScrolledIntoView(document.getElementById('activity'))
+        context.isScrolledIntoView(document.getElementById("activity"))
       ) {
-        context.hash = 'activity'
+        context.hash = "activity";
       }
-      this.screenWidth = document.documentElement.clientWidth
-      this.screenHeight = window.innerHeigh
-    }, 100)
+      this.screenWidth = document.documentElement.clientWidth;
+      this.screenHeight = window.innerHeigh;
+    }, 100);
   }
-}
+};
 </script>
 
 <style scoped>
@@ -138,7 +220,7 @@ export default {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background: #14A0C5;
+  background: #14a0c5;
 }
 
 .info {
@@ -161,15 +243,14 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .hamburgerButton {
-    position: absolute;
-    display: block;
-    top: 0;
-    margin: auto;
-    padding: 1em;
+  position: absolute;
+  display: block;
+  top: 0;
+  margin: auto;
+  padding: 1em;
 }
 
 .hamburgerButton img {
@@ -191,13 +272,14 @@ export default {
   width: auto;
 }
 
-p, h1 {
+p,
+h1 {
   margin: 0;
   padding: 0;
   font-size: 2.5em;
   text-align: center;
   padding-left: 1em;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   display: inline;
   color: white;
   width: 40vw;
@@ -210,7 +292,8 @@ h1 {
   white-space: nowrap;
 }
 
-.bracket1, .bracket2 {
+.bracket1,
+.bracket2 {
   padding-left: 0em;
   font-size: 5em;
 }
@@ -221,7 +304,7 @@ h1 {
 a {
   display: block;
   text-decoration: none;
-  color: #14A0C5;
+  color: #14a0c5;
   font-family: comfortaa;
   text-align: center;
   padding: 0.5em;
@@ -251,7 +334,7 @@ a img {
   width: 100%;
   position: fixed;
 }
-.menu ul{
+.menu ul {
   width: 60%;
   display: flex;
   flex-direction: row;
@@ -262,16 +345,16 @@ a img {
   background: white;
   border: 0.2em solid #ff0043;
   border-bottom: none;
-  -webkit-box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 38px 2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.75);
 }
 
 .menu li {
-  list-style-type:none;
+  list-style-type: none;
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   p {
     font-size: 2em;
   }
@@ -285,7 +368,7 @@ a img {
   }
 }
 /*Small screens*/
-@media only screen and (max-width : 1024px) and (orientation : portrait) {
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
   .container {
     display: flex;
     flex-direction: column;
@@ -294,7 +377,7 @@ a img {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background: #14A0C5;
+    background: #14a0c5;
   }
 
   .info {
@@ -323,7 +406,8 @@ a img {
     text-align: right;
   }
 
-  p, h1 {
+  p,
+  h1 {
     padding-left: 0;
     width: 100%;
   }
@@ -339,7 +423,6 @@ a img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
   }
 
   .portrait {
