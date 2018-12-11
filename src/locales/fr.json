@@ -229,5 +229,64 @@
     "event": "Evénements",
     "cv": "CV"
   },
-  "skills": {}
+  "skills": {
+    "title": "Skills",
+    "tech": {
+      "title": "Tech skills",
+      "web": {
+        "title": "Développement web",
+        "description": "Javascript (React, Vue, Angular, ES6), CSS (SASS, Less), HTML, PHP (Symfony)"
+      },
+      "software": {
+        "title": "Développement logiciel",
+        "description": "Java, C#, Python, Bash, C, Assembly"
+      },
+      "mobile": {
+        "title": "Développement mobile",
+        "description": "Android, React Native (Cross Platform)"
+      },
+      "other": {
+        "title": "Autres technos de dev",
+        "description": "OCaml, Prolog, Firebase, GraphQL, MySQL, Scapy"
+      },
+      "used": {
+        "title": "Logiciels utilisés",
+        "description": "Photoshop, StarUML, Office, Wireshark"
+      }
+    },
+    "soft": {
+      "title": "Soft skills",
+      "international": {
+        "title": "Internationale",
+        "description": "Worked in Andorra, France, UK, Germany"
+      },
+      "adaptive": {
+        "title": "Adaptative",
+        "description": "Education et expériences professionnelles diversifiées"
+      },
+      "curious": {
+        "title": "Curieuse",
+        "description": "Autodidacte, créative, meetups, challenges"
+      },
+      "teamspirit": {
+        "title": "Esprit d'équipe",
+        "description": "Hackatons, projets de groupe, chef de groupe"
+      }
+    },
+    "secu": {
+      "title": "Formation actuelle",
+      "software": {
+        "title": "Sécurité logicielle et des systèmes",
+        "description": "Vulnérabilités logicielles, Reverse engineering, Développement logiciel sécurisé, Administration système, Virus et Antivirus"
+      },
+      "network": {
+        "title": "Sécurité réseau",
+        "description": "Attaques et sécurisation des couches OSI, Réseaux sans-fil, Architecture fondamentale des réseaux sécurisés, Sécurité des protocoles"
+      },
+      "other": {
+        "title": "Autres trucs cools",
+        "description": "Cryptographie, Gouvernance, Intrusion en sécurité aérospatiale, Protection de vie privée"
+      }
+    }
+  }
 }

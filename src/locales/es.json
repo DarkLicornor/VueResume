@@ -27,7 +27,7 @@
     "education": {
       "n7": {
         "diploma": "Master",
-        "topic": "Seguridad informática",
+        "topic": "Seguredad informática",
         "place": "2018/2019 - Francia, ENSEEIHT"
       },
       "insa": {
@@ -71,14 +71,14 @@
     "ressi": {
       "title": "RESSI",
       "dates": "(05/18, Francia)",
-      "description": "Conferencia de estudio en seguridad informática, Oradora",
+      "description": "Conferencia de estudio en seguredad informática, Oradora",
       "technos": ""
     },
     "ccc": {
       "title": "34C3",
       "dates": "(12/2017, Alemania)",
       "description": "Congrès, CTF",
-      "technos": "Conferencia internacional en seguridad informática"
+      "technos": "Conferencia internacional en seguredad informática"
     },
     "ece": {
       "title": "EclipseCon Francia y Europa",
@@ -187,14 +187,14 @@
     },
     "pinanddraw": {
       "title": "Pin and Draw",
-      "place": "Aberdeen, UK",
+      "place": "Aberdeen, Reino Unido",
       "dates": "03/2017->05/2017",
       "description": "Herramienta para referencias e inspiración [PERSO]",
       "technos": "ReactJS, Firebase, beaucoup d'APIs"
     },
     "sportlethen": {
       "title": "Sportlethen",
-      "place": "Aberdeen, UK",
+      "place": "Aberdeen, Reino Unido",
       "dates": "10/2016 -> 12/2016",
       "description": "Sitio para los clubs de deportes locales[UNI]",
       "technos": "PHP, HTML5, CSS3"
@@ -215,7 +215,7 @@
     },
     "envirocache": {
       "title": "Envirocache",
-      "place": "Aberdeen, UK",
+      "place": "Aberdeen, Reino Unido",
       "dates": "12/2016 -> 05/2017",
       "description": "Prueba de concepto (PokemonGo medioambiental)",
       "technos": "ReactJS, Atomic design, Firebase"
@@ -229,5 +229,64 @@
     "event": "Eventos",
     "cv": "CV"
   },
-  "skills": {}
+  "skills": {
+    "title": "Habilidades",
+    "tech": {
+      "title": "Habilidades tecnicas",
+      "web": {
+        "title": "Desarrollo web",
+        "description": "Javascript (React, Vue, Angular, ES6), CSS (SASS, Less), HTML, PHP (Symfony)"
+      },
+      "software": {
+        "title": "Desarrollo de software",
+        "description": "Java, C#, Python, Bash, C, Assembly"
+      },
+      "mobile": {
+        "title": "Desarrollo móvil",
+        "description": "Android, React Native (Cross Platform)"
+      },
+      "other": {
+        "title": "Otras tecnicas de desarrollo",
+        "description": "OCaml, Prolog, Firebase, GraphQL, MySQL, Scapy"
+      },
+      "used": {
+        "title": "Sofwares utilizados",
+        "description": "Photoshop, StarUML, Office, Wireshark"
+      }
+    },
+    "soft": {
+      "title": "Habilidades humanas",
+      "international": {
+        "title": "Internacional",
+        "description": "He trebajado en Andorra, Francia, Reino Unido, Alemania"
+      },
+      "adaptive": {
+        "title": "Adaptativa",
+        "description": "Educacion y experiencias profesionales diversificadas"
+      },
+      "curious": {
+        "title": "Curiosa",
+        "description": "Autodidacte, creativa, meetups, challenges"
+      },
+      "teamspirit": {
+        "title": "Trabajo en equipo",
+        "description": "Hackatons, proyectos de grupo, líder de grupo"
+      }
+    },
+    "secu": {
+      "title": "Formacion actual",
+      "software": {
+        "title": "Seguredad de software y de sistemas",
+        "description": "Vulnerabilidades de softwares, Reverse engineering, Desarrollo de software segurp, Administracion, Virus e Antivirus"
+      },
+      "network": {
+        "title": "Seguredad de las redes",
+        "description": "Ataques y securización de las capas OSI, Red inalambrical, Arquitectura fundamental de redes seguras, Seguredad de protocolos"
+      },
+      "other": {
+        "title": "Otras cosas que molan",
+        "description": "Criptografía, Governança, Intrusió en Seguredad Aeroespacial, Proteccion de vida privada"
+      }
+    }
+  }
 }

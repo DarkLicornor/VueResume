@@ -69,7 +69,6 @@ td {
   color: black;
   font-size: 16px;
   font-family: comfortaa, sans-serif;
-  line-height: 1.5em;
 }
 
 h2 {

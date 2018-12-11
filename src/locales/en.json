@@ -230,6 +230,7 @@
     "cv": "CV"
   },
   "skills": {
+    "title": "Skills",
     "tech": {
       "title": "Tech skills",
       "web": {
@@ -250,7 +251,7 @@
       },
       "used": {
         "title": "Used software",
-        "description": "Photoshop, StarUML,  Office, Wireshark"
+        "description": "Photoshop, StarUML, Office, Wireshark"
       }
     },
     "soft": {
@@ -273,14 +274,14 @@
       }
     },
     "secu": {
-      "title": "Current course (WIP !)",
+      "title": "Current course",
       "software": {
         "title": "Software & systems security",
         "description": "Software vulnerabilities, Reverse engineering, Secure software development, System administration, Viral techniques, Physical attacks and security, Kernel protection"
       },
       "network": {
         "title": "Network security",
-        "description": "OSI attacks and security, Wireless networks, Architecture fundamentals,  Protocol security"
+        "description": "OSI attacks and security, Wireless networks, Architecture fundamentals of secure networks,  Protocol security"
       },
       "other": {
         "title": "Other cool stuff",

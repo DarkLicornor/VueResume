@@ -187,14 +187,14 @@
     },
     "pinanddraw": {
       "title": "Pin and Draw",
-      "place": "Aberdeen, UK",
+      "place": "Aberdeen, Regne Unit",
       "dates": "03/2017->05/2017",
       "description": "Eina per referències i inspiració[PERSO]",
       "technos": "ReactJS, Firebase, beaucoup d'APIs"
     },
     "sportlethen": {
       "title": "Sportlethen",
-      "place": "Aberdeen, UK",
+      "place": "Aberdeen, Regne Unit",
       "dates": "10/2016 -> 12/2016",
       "description": "Lloc web per clubs epsortius locals[UNI]",
       "technos": "PHP, HTML5, CSS3"
@@ -215,7 +215,7 @@
     },
     "envirocache": {
       "title": "Envirocache",
-      "place": "Aberdeen, UK",
+      "place": "Aberdeen, Regne Unit",
       "dates": "12/2016 -> 05/2017",
       "description": "Prova de concepte (PokemonGo mediambiental)",
       "technos": "ReactJS, Atomic design, Firebase"
@@ -229,5 +229,64 @@
     "event": "Asdeveniments",
     "cv": "CV"
   },
-  "skills": {}
+  "skills": {
+    "title": "Habilitats",
+    "tech": {
+      "title": "Habilitats tècniques",
+      "web": {
+        "title": "Desenvolupament web",
+        "description": "Javascript (React, Vue, Angular, ES6), CSS (SASS, Less), HTML, PHP (Symfony)"
+      },
+      "software": {
+        "title": "Desenvolupament programari",
+        "description": "Java, C#, Python, Bash, C, Assembly"
+      },
+      "mobile": {
+        "title": "Desenvolupament mòbil",
+        "description": "Android, React Native (Cross Platform)"
+      },
+      "other": {
+        "title": "Altres tècniques de desenvolupament",
+        "description": "OCaml, Prolog, Firebase, GraphQL, MySQL, Scapy"
+      },
+      "used": {
+        "title": "Programaris utilitzats",
+        "description": "Photoshop, StarUML, Office, Wireshark"
+      }
+    },
+    "soft": {
+      "title": "Habilitats humanes",
+      "international": {
+        "title": "Internacional",
+        "description": "He treballat en Andorra, França, Regne Unit, Germany"
+      },
+      "adaptive": {
+        "title": "Adaptativa",
+        "description": "Educació i experiències professionals diversificades"
+      },
+      "curious": {
+        "title": "Curiosa",
+        "description": "Autodidacte, creativa, meetups, challenges"
+      },
+      "teamspirit": {
+        "title": "Treball en equip",
+        "description": "Hackatons, projects de grup, líder de groupe"
+      }
+    },
+    "secu": {
+      "title": "Formació actual",
+      "software": {
+        "title": "Securitat programari et de sistemes",
+        "description": "Vulnerabilitats programaris, Reverse engineering, Desenvolupament programari securitzat, Administració, Virus i Antivirus"
+      },
+      "network": {
+        "title": "Securitat de les xarxes",
+        "description": "Attacs i securitzacó de les capes OSI, Xarxes sense fil, Arquitectura fundamental de xarxes segures, Securitat des protocols"
+      },
+      "other": {
+        "title": "Altres coses que molan",
+        "description": "Criptografia, Governança, Intrusió en Securitat Aeroespacial, Protecció de la Privacitat"
+      }
+    }
+  }
 }

@@ -2,65 +2,86 @@
   <div>
     <div class="parallax"></div>
     <div id="skills">
-      <h1>Compétences</h1>
-      <p id="a">
-        Note : I represented my skills with graphs. Each one represents my
-        actual level in each language for a specific domain depending on my
-        others levels.
-      </p>
-      <div class="chartBlock">
-        <div class="chartBlock">
-          <div class="chart"><WebChart /></div>
-          <div class="comments">
-            <table>
-              <tr>
-                <td style="background: #14A0C5;">HTML5</td>
-                <td>Advanced</td>
-              </tr>
-              <tr>
-                <td style="background: #fff133;">CSS3</td>
-                <td>Advanced</td>
-              </tr>
-              <tr>
-                <td style="background: #ff0043;">NodeJS</td>
-                <td>Good</td>
-              </tr>
-              <tr>
-                <td style="background: #9b59b6;">ES6</td>
-                <td>Good</td>
-              </tr>
-              <tr>
-                <td style="background: #2ecc71;">PHP</td>
-                <td>Good</td>
-              </tr>
-              <tr>
-                <td style="background: #95a5a6;">MySQL</td>
-                <td>Good</td>
-              </tr>
-            </table>
+      <h1>{{ $t("skills.title") }}</h1>
+      <div class="skillsBlock">
+        <div class="skillsBlockContainer">
+          <img src="../../static/images/software.svg" />
+          <div class="comment">
+            <h2>{{ $t("skills.tech.title") }}</h2>
+
+            <p>
+              <strong>{{ $t("skills.tech.web.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.tech.web.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.tech.software.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.tech.software.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.tech.mobile.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.tech.mobile.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.tech.other.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.tech.other.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.tech.used.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.tech.used.description") }}</p>
           </div>
         </div>
-        <div class="chartBlock">
-          <div class="chart"><SoftwareChart /></div>
-          <div class="comments">
-            <table>
-              <tr>
-                <td style="background: #14A0C5;">Java</td>
-                <td>Advanced</td>
-              </tr>
-              <tr>
-                <td style="background: #fff133;">Python</td>
-                <td>Good</td>
-              </tr>
-              <tr>
-                <td style="background: #ff0043;">C#</td>
-                <td>Good</td>
-              </tr>
-              <tr>
-                <td style="background: #9b59b6;">C</td>
-                <td>Beginner</td>
-              </tr>
-            </table>
+
+        <div class="skillsBlockContainer">
+          <img src="../../static/images/skills.svg" />
+          <div class="comment">
+            <h2>{{ $t("skills.soft.title") }}</h2>
+
+            <p>
+              <strong>{{ $t("skills.soft.international.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.soft.international.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.soft.adaptive.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.soft.adaptive.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.soft.curious.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.soft.curious.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.soft.teamspirit.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.soft.teamspirit.description") }}</p>
+          </div>
+        </div>
+
+        <div class="skillsBlockContainer">
+          <img src="../../static/images/virus.svg" />
+          <div class="comment">
+            <h2>{{ $t("skills.secu.title") }}</h2>
+
+            <p>
+              <strong>{{ $t("skills.secu.software.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.secu.software.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.secu.network.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.secu.network.description") }}</p>
+
+            <p>
+              <strong>{{ $t("skills.secu.other.title") }}</strong>
+            </p>
+            <p>{{ $t("skills.secu.other.description") }}</p>
           </div>
         </div>
       </div>
@@ -101,78 +122,35 @@ export default {
   margin-bottom: 4em;
 }
 
-.chartBlock {
+.skillsBlock {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
 }
 
-.chart {
-  width: 50%;
-  margin: 2em;
+.skillsBlockContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 25%;
 }
 
-td {
-  white-space: nowrap;
-  text-align: left;
-  padding: 1em;
+.skillsBlockContainer .comment {
+  border: none;
+  border-top: solid 2px #14a0c5;
+  text-align: center;
 }
 
-h1 {
-  font-family: sophia;
-  font-size: 7em;
+h2 {
   margin: 0;
-  text-align: center;
+  color: #14a0c5;
 }
 
-p {
-  width: 70%;
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-p,
-td {
-  font-family: comfortaa, sans-serif;
-}
-
-/*Small screens*/
-@media only screen and (max-width: 1024px) {
-  #skills {
-    width: 100%;
-  }
-
-  .chartBlock {
-    width: 100%;
-    max-width: 100%;
-    padding: 1em;
-  }
-
-  .chart {
-    width: 40%;
-  }
-  .comments {
-    width: 50%;
-  }
-
-  .comments table {
-    width: 100%;
-  }
-
-  td {
-    font-size: 1.5em;
-  }
-
-  .subTitle {
-    font-size: 2em;
-  }
-
-  h1 {
-    font-size: 10em;
-  }
+img {
+  width: 80px;
+  padding-bottom: 1em;
 }
 </style>
