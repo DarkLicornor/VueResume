@@ -204,5 +204,63 @@
     "event": "Events",
     "cv": "CV"
   },
-  "skills": {}
+  "skills": {
+    "tech": {
+      "title": "Tech skills",
+      "web": {
+        "title": "Web development",
+        "description": "Javascript (React, Vue, Angular, ES6), CSS (SASS, Less), HTML, PHP (Symfony)"
+      },
+      "software": {
+        "title": "Sofware development",
+        "description": "Java, C#, Python, Bash, C, Assembly"
+      },
+      "mobile": {
+        "title": "Mobile development",
+        "description": "Android, React Native (Cross Platform)"
+      },
+      "other": {
+        "title": "Other dev technologies",
+        "description": "OCaml, Prolog, Firebase, GraphQL, MySQL, Scapy"
+      },
+      "used": {
+        "title": "Used software",
+        "description": "Photoshop, StarUML,  Office, Wireshark"
+      }
+    },
+    "soft": {
+      "title": "Soft skills",
+      "international": {
+        "title": "International",
+        "description": "Worked in Andorra, France, UK, Germany"
+      },
+      "adaptive": {
+        "title": "Adaptive",
+        "description": "Diverse education and professional experiences"
+      },
+      "curious": {
+        "title": "Curious",
+        "description": "Autodidact, creative, meetups, challenges"
+      },
+      "teamspirit": {
+        "title": "Team spirit",
+        "description": "Hackatons, group projects, group leading"
+      }
+    },
+    "secu": {
+      "title": "Current course (WIP !)",
+      "software": {
+        "title": "Software & systems security",
+        "description": "Software vulnerabilities, Reverse engineering, Secure software development, System administration, Viral techniques, Physical attacks and security, Kernel protection"
+      },
+      "network": {
+        "title": "Network security",
+        "description": "OSI attacks and security, Wireless networks, Architecture fundamentals,  Protocol security"
+      },
+      "other": {
+        "title": "Other cool stuff",
+        "description": "Cryptography, Gouvernance, Aerospace security Intrusion, Private life protection "
+      }
+    }
+  }
 }
