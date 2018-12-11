@@ -296,7 +296,7 @@ export default {
 
 .hamburgerButton img {
   width: 3em;
-  position: absolute;
+  position: fixed;
   top: 0;
   margin-top: 0.5em;
   margin-left: 0.5em;
