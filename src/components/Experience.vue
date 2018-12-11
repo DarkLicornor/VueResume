@@ -4,7 +4,10 @@
     <div id="experience">
       <h1>{{ $t("jobexperiences.title") }}</h1>
       <p class="subTitle">{{ $t("jobexperiences.subTitle") }}</p>
-      <h2 class="subSubTitle">{{ $t("jobexperiences.internships") }}</h2>
+      <div class="jobexperienceTitle">
+        <img src="../../static/images/courier.svg" />
+        <h2 class="subSubTitle">{{ $t("jobexperiences.internships") }}</h2>
+      </div>
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.patagona.de"
@@ -24,7 +27,11 @@
         />
       </div>
 
-      <h2 class="subSubTitle">{{ $t("jobexperiences.volunteering") }}</h2>
+      <div class="jobexperienceTitle">
+        <img src="../../static/images/volunteer.svg" />
+        <h2 class="subSubTitle">{{ $t("jobexperiences.volunteering") }}</h2>
+      </div>
+
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.eclipsecon.org"
@@ -36,7 +43,10 @@
         />
       </div>
 
-      <h2 class="subSubTitle">{{ $t("jobexperiences.web") }}</h2>
+      <div class="jobexperienceTitle">
+        <img src="../../static/images/coding.svg" />
+        <h2 class="subSubTitle">{{ $t("jobexperiences.web") }}</h2>
+      </div>
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.splang.fr"
@@ -88,7 +98,11 @@
         />
       </div>
 
-      <h2 class="subSubTitle">{{ $t("jobexperiences.mobile") }}</h2>
+      <div class="jobexperienceTitle">
+        <img src="../../static/images/app-development.svg" />
+        <h2 class="subSubTitle">{{ $t("jobexperiences.mobile") }}</h2>
+      </div>
+
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.envirocache.co.uk"
@@ -153,18 +167,28 @@ export default {
   min-width: 25%;
 }
 
+.jobexperienceTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .comment a:hover {
   color: #cc0035;
 }
 
 img {
-  margin: 2em;
+  margin-top: 2em;
+  width: 7em;
+  margin: 1em;
 }
 
 .subSubTitle {
+  border-top: solid 2px #14a0c5;
   font-family: sophia;
   margin: auto;
-  width: 100%;
+  width: 50%;
   text-align: center;
   color: #14a0c5;
 }
