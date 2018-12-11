@@ -35,16 +35,6 @@
         </div>
       </div>
       <div class="aboutBlockContainer">
-        <img src="../../static/images/school-bus.svg" />
-        <div class="comment">
-          <p>{{ $t("about.education.n7") }}</p>
-          <p>{{ $t("about.education.insa") }}</p>
-          <p>{{ $t("about.education.rgu") }}</p>
-          <p>{{ $t("about.education.iut") }}</p>
-          <p>{{ $t("about.education.lycee") }}</p>
-        </div>
-      </div>
-      <div class="aboutBlockContainer">
         <img src="../../static/images/language.svg" />
         <div class="comment">
           <p>{{ $t("about.language.french") }}</p>
@@ -52,6 +42,41 @@
           <p>{{ $t("about.language.catalan") }}</p>
           <p>{{ $t("about.language.spanish") }}</p>
           <p>{{ $t("about.language.german") }}</p>
+        </div>
+      </div>
+      <div class="schoolBlockContainer">
+        <img src="../../static/images/school-bus.svg" />
+        <div class="comment">
+          <p>
+            <strong> {{ $t("about.education.n7.diploma") }}</strong> -
+            <span> {{ $t("about.education.n7.topic") }}</span> -
+            <span class="date"> {{ $t("about.education.n7.place") }}</span>
+          </p>
+          <p>
+            <strong> {{ $t("about.education.insa.diploma") }}</strong> -
+            <span> {{ $t("about.education.insa.topic") }}</span> -
+            <span class="date"> {{ $t("about.education.insa.place") }}</span>
+          </p>
+          <p>
+            <strong> {{ $t("about.education.rgu.diploma") }}</strong> -
+            <span> {{ $t("about.education.rgu.topic") }}</span> -
+            <span class="date"> {{ $t("about.education.rgu.place") }}</span>
+          </p>
+          <p>
+            <strong> {{ $t("about.education.dueti.diploma") }}</strong> -
+            <span> {{ $t("about.education.dueti.topic") }}</span> -
+            <span class="date"> {{ $t("about.education.dueti.place") }}</span>
+          </p>
+          <p>
+            <strong> {{ $t("about.education.iut.diploma") }}</strong> -
+            <span> {{ $t("about.education.iut.topic") }}</span> -
+            <span class="date"> {{ $t("about.education.iut.place") }}</span>
+          </p>
+          <p>
+            <strong> {{ $t("about.education.lycee.diploma") }}</strong> -
+            <span> {{ $t("about.education.lycee.topic") }}</span> -
+            <span class="date"> {{ $t("about.education.lycee.place") }}</span>
+          </p>
         </div>
       </div>
     </div>
@@ -68,7 +93,7 @@ export default {
 #about {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 85%;
   margin-top: 2em;
   margin-bottom: 4em;
 }
@@ -86,38 +111,32 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 1em;
+  margin: 16px;
+  margin-bottom: 64px;
+  width: 350px;
+}
+
+.schoolBlockContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.schoolBlockContainer .comment {
+  border: none;
+  border-top: solid 2px #14a0c5;
 }
 
 .comment {
-  padding-left: 1em;
-  width: 20em;
   border-left: solid 2px #14a0c5;
+  padding-left: 1em;
 }
 
 img {
-  width: 10em;
-  margin: 2em;
-}
-
-h1 {
-  font-family: sophia;
-  font-size: 7em;
-  margin: 0;
-  text-align: center;
-}
-
-.subTitle {
-  width: 70%;
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 3em;
-  text-align: center;
-}
-
-p,
-td {
-  font-family: comfortaa, sans-serif;
+  width: 7em;
+  margin: 1em;
 }
 
 /*Small screens*/
@@ -133,18 +152,6 @@ td {
 
   .comment {
     width: 50%;
-  }
-
-  .comment p {
-    font-size: 2em;
-  }
-
-  .subTitle {
-    font-size: 2em;
-  }
-
-  h1 {
-    font-size: 11em;
   }
 
   img {

@@ -4,7 +4,7 @@
     <div id="experience">
       <h1>{{ $t("jobexperiences.title") }}</h1>
       <p class="subTitle">{{ $t("jobexperiences.subTitle") }}</p>
-      <p class="subSubTitle">{{ $t("jobexperiences.internships") }}</p>
+      <h2 class="subSubTitle">{{ $t("jobexperiences.internships") }}</h2>
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.patagona.de"
@@ -24,7 +24,7 @@
         />
       </div>
 
-      <p class="subSubTitle">{{ $t("jobexperiences.volunteering") }}</p>
+      <h2 class="subSubTitle">{{ $t("jobexperiences.volunteering") }}</h2>
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.eclipsecon.org"
@@ -36,7 +36,7 @@
         />
       </div>
 
-      <p class="subSubTitle">{{ $t("jobexperiences.web") }}</p>
+      <h2 class="subSubTitle">{{ $t("jobexperiences.web") }}</h2>
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.splang.fr"
@@ -88,7 +88,7 @@
         />
       </div>
 
-      <p class="subSubTitle">{{ $t("jobexperiences.mobile") }}</p>
+      <h2 class="subSubTitle">{{ $t("jobexperiences.mobile") }}</h2>
       <div class="experienceBlock">
         <ExperienceBlockContainer
           href="https://www.envirocache.co.uk"
@@ -149,19 +149,8 @@ export default {
   justify-content: center;
   margin: 0.2em;
   margin-bottom: 0.5em;
-}
-
-.comment {
-  padding: 1em;
-  border-left: solid 2px #14a0c5;
-  width: 70%;
-}
-
-.comment a {
-  text-decoration: none;
-  color: #ff0043;
-  font-size: 1.2em;
-  font-family: comfortaa;
+  max-width: 40%;
+  min-width: 25%;
 }
 
 .comment a:hover {
@@ -172,60 +161,10 @@ img {
   margin: 2em;
 }
 
-h1 {
-  font-family: sophia;
-  font-size: 7em;
-  margin: 0;
-  text-align: center;
-}
-
-h2 {
-  font-family: sophia;
-  font-size: 3em;
-  margin: 0.4em;
-  width: 4em;
-  text-align: right;
-  color: #14a0c5;
-}
-
-h4,
-h6 {
-  display: inline;
-}
-
-h4 {
-  font-family: comfortaaLight;
-  font-size: 1.7em;
-  margin: 0;
-}
-
-h5 {
-  font-family: comfortaaLight;
-  font-size: 1.2em;
-  margin: 0;
-  line-height: 2em;
-}
-
-h6 {
-  font-family: comfortaaLight;
-  font-size: 0.8em;
-  margin: 0;
-  color: #ff0043;
-}
-
-.subTitle {
-  width: 70%;
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 3em;
-  text-align: center;
-}
-
 .subSubTitle {
   font-family: sophia;
-  font-size: 7em;
   margin: auto;
-  margin-top: 1em;
+  width: 100%;
   text-align: center;
   color: #14a0c5;
 }

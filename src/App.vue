@@ -60,4 +60,62 @@ pink:  #ff0043*/
   font-family: sophiaRight;
   src: url(../static/fonts/Sophia/Sophia/SophiaRight/SophiaRight.ttf);
 }
+
+p,
+a,
+span,
+td {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: comfortaa, sans-serif;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: sophia;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: comfortaa, sans-serif;
+}
+
+h1 {
+  font-family: sophia;
+  font-size: 88px;
+  margin: 0;
+  text-align: center;
+}
+
+.subTitle {
+  width: 70%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 24px;
+}
+
+.date,
+.place {
+  font-style: italic;
+  color: #ff0043;
+  font-size: 12px;
+}
+
+.link {
+  color: #ff0043;
+}
+
+.link:hover {
+  color: #cc0035;
+}
+
+.blockTitle {
+  font-size: 32px;
+  padding: 1em;
+  color: #14a0c5;
+}
 </style>

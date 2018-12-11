@@ -2,13 +2,14 @@
   <div class="activityBlockContainer">
     <a target="_blank" :href="href">
       <img v-if="image" :src="image" />
-      <h3 v-else>{{ title }}</h3>
+      <h2 class="blockTitle" v-else>{{ title }}</h2>
     </a>
     <div class="comment">
-      <h4>{{ title }}</h4>
-      <h6>{{ dates }}</h6>
-      <h5>{{ description }}</h5>
-      <h5>{{ technos }}</h5>
+      <p>
+        <strong>{{ title }}</strong> <span class="date">{{ dates }}</span>
+      </p>
+      <p>{{ description }}</p>
+      <p>{{ technos }}</p>
     </div>
   </div>
 </template>
@@ -20,6 +21,7 @@
   align-items: center;
   justify-content: center;
   margin: 1em;
+  width: 30%;
 }
 
 .comment {
@@ -29,53 +31,13 @@
 }
 
 img {
-  width: 10em;
-  margin: 2em;
+  width: 7em;
+  margin: 1em;
 }
 
-h1 {
-  font-family: sophia;
-  font-size: 7em;
-  margin: 0;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-h3 {
-  font-family: sophia;
-  font-size: 3em;
-  margin: 0.4em;
-  width: 4em;
-  text-align: right;
-  color: #14a0c5;
-}
-
-h4,
-h6 {
-  display: inline;
-}
-
-h4 {
+p {
   font-family: comfortaaLight;
-  font-size: 1.7em;
   margin: 0;
-}
-
-h5 {
-  font-family: comfortaaLight;
-  font-size: 1.2em;
-  margin: 0;
-  line-height: 2em;
-}
-
-h6 {
-  font-family: comfortaaLight;
-  font-size: 0.8em;
-  margin: 0;
-  color: #ff0043;
 }
 
 .subTitle {
@@ -84,11 +46,6 @@ h6 {
   margin-top: 1em;
   margin-bottom: 3em;
   text-align: center;
-}
-
-p,
-td {
-  font-family: comfortaa, sans-serif;
 }
 
 /*Small screens*/

@@ -71,15 +71,16 @@ a img {
 .menu ul {
   width: 60%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   margin-left: 0;
 }
 
 .menu li {
-  padding: 1.5em;
+  padding-top: 1.5em;
   list-style-type: none;
+  cursor: pointer;
 }
 
 .menu img {

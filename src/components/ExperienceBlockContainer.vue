@@ -1,11 +1,11 @@
 <template>
   <div class="experienceBlockContainer">
-    <h2>{{ title }}</h2>
+    <h2 class="blockTitle">{{ title }}</h2>
     <div class="comment">
-      <p>{{ dates }} - {{ place }}</p>
-      <h4>{{ description }}</h4>
-      <h5>{{ technos }}</h5>
-      <a target="_blank" :href="href">www.rgu.ac.uk</a>
+      <p class="date">{{ dates }} - {{ place }}</p>
+      <p>{{ description }}</p>
+      <p>{{ technos }}</p>
+      <a class="link" target="_blank" :href="href">www.rgu.ac.uk</a>
     </div>
   </div>
 </template>
@@ -31,62 +31,6 @@ export default {
   width: 28em;
 }
 
-.comment a {
-  text-decoration: none;
-  color: #ff0043;
-  font-size: 1.2em;
-  font-family: comfortaa;
-}
-
-.comment a:hover {
-  color: #cc0035;
-}
-
-img {
-  margin: 2em;
-}
-
-h1 {
-  font-family: sophia;
-  font-size: 7em;
-  margin: 0;
-  text-align: center;
-}
-
-h2 {
-  font-family: sophia;
-  font-size: 3em;
-  margin: 0.4em;
-  width: 4em;
-  text-align: right;
-  color: #14a0c5;
-}
-
-h4,
-h6 {
-  display: inline;
-}
-
-h4 {
-  font-family: comfortaaLight;
-  font-size: 1.7em;
-  margin: 0;
-}
-
-h5 {
-  font-family: comfortaaLight;
-  font-size: 1.2em;
-  margin: 0;
-  line-height: 2em;
-}
-
-h6 {
-  font-family: comfortaaLight;
-  font-size: 0.8em;
-  margin: 0;
-  color: #ff0043;
-}
-
 .subTitle {
   width: 70%;
   margin: auto;
@@ -95,14 +39,10 @@ h6 {
   text-align: center;
 }
 
-p,
-td {
-  font-family: comfortaa, sans-serif;
-}
-
-p {
-  margin-top: 0;
-  font-style: italic;
+.blockTitle {
+  width: 5em;
+  padding-right: 0.5em;
+  text-align: right;
 }
 
 /*Small screens*/

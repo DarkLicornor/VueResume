@@ -25,11 +25,36 @@
       "scotland": "Scotland for 1 year"
     },
     "education": {
-      "n7": "Masters - IT security - France - ENSEEIHT",
-      "insa": "Engineer diploma - Computer Science and Networking - France - INSA Toulouse",
-      "rgu": "Bachelors - Application Software Development - Scotland - Robert Gordon University",
-      "iut": "DUT - Computer Science - France - IUT de Blagnac",
-      "lycee": "Baccalaureate - Scientific - Andorra - Lycée Comte de Foix"
+      "n7": {
+        "diploma": "Masters",
+        "topic": "IT security",
+        "place": "2018/2019 - France, ENSEEIHT"
+      },
+      "insa": {
+        "diploma": "Engineer diploma",
+        "topic": "Computer Science and Networking",
+        "place": "2017/2019 - France, INSA Toulouse"
+      },
+      "rgu": {
+        "diploma": "Bachelors",
+        "topic": "Application Software Development",
+        "place": "2016/2017 - Scotland, Robert Gordon University"
+      },
+      "dueti": {
+        "diploma": "DUETI",
+        "topic": "Computer science",
+        "place": "2016/2017 - Remote, UT2J"
+      },
+      "iut": {
+        "diploma": "DUT",
+        "topic": "Computer Science",
+        "place": "2014/2016 - France, IUT de Blagnac"
+      },
+      "lycee": {
+        "diploma": "Baccalaureate",
+        "topic": "Scientific, computing speciality",
+        "place": "2011/2014 - Andorra, Lycée Comte de Foix"
+      }
     },
     "language": {
       "french": "French (C2)",

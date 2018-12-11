@@ -21,32 +21,4 @@ export default {
 };
 </script>
 
-<style scoped>
-#about {
-  display: block;
-  margin: auto;
-  width: 80%;
-  margin-top: 2em;
-  margin-bottom: 4em;
-}
-
-h1 {
-  font-family: sophia;
-  font-size: 7em;
-  margin: 0;
-  text-align: center;
-}
-
-p {
-  width: 70%;
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-p,
-td {
-  font-family: comfortaa, sans-serif;
-}
-</style>
+<style scoped></style>
