@@ -355,7 +355,7 @@ export default {
 .languageMenu {
   top: -1px;
   left: 0px;
-  margin: 0;
+  padding: 0;
   position: fixed;
 }
 .languageMenu ul {
@@ -368,7 +368,7 @@ export default {
 }
 
 .languageMenu li {
-  padding-left: 1.5em;
+  padding: 1em;
   list-style-type: none;
   cursor: pointer;
 }
