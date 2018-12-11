@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <En />
+    <div>
+      <LanguageMenu />
+      <Hello />
+      <About />
+      <Skills />
+      <Experience />
+      <Activity />
+    </div>
     <!-- <router-view></router-view> -->
     <link
       href="https://fonts.googleapis.com/css?family=Arvo"
@@ -10,10 +17,16 @@
 </template>
 
 <script>
-import En from "./components/En.vue";
+import LanguageMenu from "./components/LanguageMenu.vue";
+import Hello from "./components/Hello.vue";
+import Experience from "./components/Experience.vue";
+import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
+import Activity from "./components/Activity.vue";
+
 export default {
   name: "app",
-  components: { En }
+  components: { LanguageMenu, Hello, About, Skills, Experience, Activity }
 };
 </script>
 

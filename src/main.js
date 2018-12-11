@@ -4,10 +4,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import VueScrollTo from "vue-scrollto";
 import App from "./App";
-import En from "./components/En.vue";
-import Es from "./components/Es.vue";
-import Cat from "./components/Cat.vue";
-import Fr from "./components/Fr.vue";
 import i18n from "./i18n";
 
 Vue.config.productionTip = false;
@@ -15,7 +11,7 @@ Vue.use(VueScrollTo);
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: En }
+  { path: "/", component: App }
   // { path: "/en", component: En },
   // { path: "/es", component: Es },
   // { path: "/cat", component: Cat },
@@ -32,5 +28,5 @@ new Vue({
   router,
   template: "<App/>",
   i18n,
-  components: { App, En, Cat, Es, Fr }
+  components: { App }
 });
