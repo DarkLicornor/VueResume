@@ -61,29 +61,4 @@ a img {
   cursor: pointer;
   border: none;
 }
-
-.menu {
-  top: -1px;
-  left: 0px;
-  margin: 0;
-  position: fixed;
-}
-.menu ul {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin-left: 0;
-}
-
-.menu li {
-  padding-top: 1.5em;
-  list-style-type: none;
-  cursor: pointer;
-}
-
-.menu img {
-  width: 3em;
-}
 </style>

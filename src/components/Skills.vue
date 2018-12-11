@@ -153,4 +153,26 @@ img {
   width: 80px;
   padding-bottom: 1em;
 }
+
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1450px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .skillsBlock {
+    flex-direction: column;
+  }
+
+  .skillsBlockContainer {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  img {
+    margin-top: 2em;
+  }
+}
 </style>

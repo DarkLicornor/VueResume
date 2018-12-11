@@ -44,40 +44,40 @@
           <p>{{ $t("about.language.german") }}</p>
         </div>
       </div>
-      <div class="schoolBlockContainer">
-        <img src="../../static/images/school-bus.svg" />
-        <div class="comment">
-          <p>
-            <strong> {{ $t("about.education.n7.diploma") }}</strong> -
-            <span> {{ $t("about.education.n7.topic") }}</span> -
-            <span class="date"> {{ $t("about.education.n7.place") }}</span>
-          </p>
-          <p>
-            <strong> {{ $t("about.education.insa.diploma") }}</strong> -
-            <span> {{ $t("about.education.insa.topic") }}</span> -
-            <span class="date"> {{ $t("about.education.insa.place") }}</span>
-          </p>
-          <p>
-            <strong> {{ $t("about.education.rgu.diploma") }}</strong> -
-            <span> {{ $t("about.education.rgu.topic") }}</span> -
-            <span class="date"> {{ $t("about.education.rgu.place") }}</span>
-          </p>
-          <p>
-            <strong> {{ $t("about.education.dueti.diploma") }}</strong> -
-            <span> {{ $t("about.education.dueti.topic") }}</span> -
-            <span class="date"> {{ $t("about.education.dueti.place") }}</span>
-          </p>
-          <p>
-            <strong> {{ $t("about.education.iut.diploma") }}</strong> -
-            <span> {{ $t("about.education.iut.topic") }}</span> -
-            <span class="date"> {{ $t("about.education.iut.place") }}</span>
-          </p>
-          <p>
-            <strong> {{ $t("about.education.lycee.diploma") }}</strong> -
-            <span> {{ $t("about.education.lycee.topic") }}</span> -
-            <span class="date"> {{ $t("about.education.lycee.place") }}</span>
-          </p>
-        </div>
+    </div>
+    <div class="schoolBlockContainer">
+      <img src="../../static/images/school-bus.svg" />
+      <div class="comment">
+        <p>
+          <strong> {{ $t("about.education.n7.diploma") }}</strong> -
+          <span> {{ $t("about.education.n7.topic") }}</span> -
+          <span class="date"> {{ $t("about.education.n7.place") }}</span>
+        </p>
+        <p>
+          <strong> {{ $t("about.education.insa.diploma") }}</strong> -
+          <span> {{ $t("about.education.insa.topic") }}</span> -
+          <span class="date"> {{ $t("about.education.insa.place") }}</span>
+        </p>
+        <p>
+          <strong> {{ $t("about.education.rgu.diploma") }}</strong> -
+          <span> {{ $t("about.education.rgu.topic") }}</span> -
+          <span class="date"> {{ $t("about.education.rgu.place") }}</span>
+        </p>
+        <p>
+          <strong> {{ $t("about.education.dueti.diploma") }}</strong> -
+          <span> {{ $t("about.education.dueti.topic") }}</span> -
+          <span class="date"> {{ $t("about.education.dueti.place") }}</span>
+        </p>
+        <p>
+          <strong> {{ $t("about.education.iut.diploma") }}</strong> -
+          <span> {{ $t("about.education.iut.topic") }}</span> -
+          <span class="date"> {{ $t("about.education.iut.place") }}</span>
+        </p>
+        <p>
+          <strong> {{ $t("about.education.lycee.diploma") }}</strong> -
+          <span> {{ $t("about.education.lycee.topic") }}</span> -
+          <span class="date"> {{ $t("about.education.lycee.place") }}</span>
+        </p>
       </div>
     </div>
   </div>
@@ -112,8 +112,6 @@ export default {
   align-items: center;
   justify-content: center;
   margin: 16px;
-  margin-bottom: 64px;
-  width: 350px;
 }
 
 .schoolBlockContainer {
@@ -122,6 +120,7 @@ export default {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 64px;
 }
 
 .schoolBlockContainer .comment {
@@ -132,30 +131,42 @@ export default {
 .comment {
   border-left: solid 2px #14a0c5;
   padding-left: 1em;
+  flex-basis: 60%;
 }
 
 img {
   width: 7em;
+  min-width: 2em;
   margin: 1em;
 }
 
-/*Small screens*/
-@media only screen and (max-width: 1024px) {
-  #about {
-    width: 100%;
+@media screen and (max-width: 1600px) {
+  img {
+    width: 6em;
+    margin: 0.5em;
   }
-
   .aboutBlockContainer {
-    width: 100%;
-    margin: 2em;
+    flex-basis: 22%;
+  } /* forces 4 items to a line */
+}
+
+@media screen and (max-width: 1450px) {
+  img {
+    width: 8em;
+    margin: 1.5em;
   }
+  .aboutBlockContainer {
+    flex-basis: 40%;
+  } /* forces 2 items to a line */
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutBlockContainer {
+    flex-basis: 100%;
+  } /* forces one item per line line */
 
   .comment {
-    width: 50%;
-  }
-
-  img {
-    width: 30%;
+    flex-basis: 25%;
   }
 }
 </style>

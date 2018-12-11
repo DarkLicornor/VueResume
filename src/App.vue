@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>
-      <LanguageMenu />
+      <AppMenu />
       <Hello />
       <About />
       <Skills />
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import LanguageMenu from "./components/LanguageMenu.vue";
+import AppMenu from "./components/AppMenu.vue";
 import Hello from "./components/Hello.vue";
 import Experience from "./components/Experience.vue";
 import About from "./components/About.vue";
@@ -26,7 +26,7 @@ import Activity from "./components/Activity.vue";
 
 export default {
   name: "app",
-  components: { LanguageMenu, Hello, About, Skills, Experience, Activity }
+  components: { AppMenu, Hello, About, Skills, Experience, Activity }
 };
 </script>
 
@@ -35,6 +35,11 @@ export default {
 blue: #14A0C5
 yellow: #fff133
 pink:  #ff0043*/
+
+@font-face {
+  font-family: megrim;
+  src: url(../static/fonts/Megrim/Megrim.ttf);
+}
 
 @font-face {
   font-family: comfortaa;

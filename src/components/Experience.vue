@@ -188,7 +188,6 @@ img {
   border-top: solid 2px #14a0c5;
   font-family: sophia;
   margin: auto;
-  width: 50%;
   text-align: center;
   color: #14a0c5;
 }
@@ -198,35 +197,17 @@ td {
   font-family: comfortaa, sans-serif;
 }
 
-/*Small screens*/
-@media only screen and (max-width: 1024px) {
-  #experience {
-    width: 100%;
-  }
+@media screen and (max-width: 1600px) {
+}
 
+@media screen and (max-width: 1450px) {
+}
+
+@media screen and (max-width: 1000px) {
   .experienceBlockContainer {
-    width: 100%;
-    margin: 2em;
-  }
-
-  h2 {
-    width: 30%;
-  }
-
-  .comment {
-    width: 60%;
-  }
-
-  .subTitle {
-    font-size: 2em;
-  }
-
-  .subSubTitle {
-    font-size: 1.9em;
-  }
-
-  h1 {
-    font-size: 10em;
+    flex-basis: 100%;
+    max-width: 100%;
+    min-width: 100%;
   }
 }
 </style>
