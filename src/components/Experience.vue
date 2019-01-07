@@ -49,7 +49,7 @@
       </div>
       <div class="experienceBlock">
         <ExperienceBlockContainer
-          href="https://www.splang.fr"
+          href="http://www.splang.fr/"
           :place="$t('jobexperiences.splang.place')"
           :title="$t('jobexperiences.splang.title')"
           :dates="$t('jobexperiences.splang.dates')"
@@ -89,7 +89,7 @@
           :technos="$t('jobexperiences.checkyoursmile.technos')"
         />
         <ExperienceBlockContainer
-          href="https://www.colorslocals.ad"
+          href="https://www.colorslocals.com"
           :place="$t('jobexperiences.colorslocals.place')"
           :title="$t('jobexperiences.colorslocals.title')"
           :dates="$t('jobexperiences.colorslocals.dates')"

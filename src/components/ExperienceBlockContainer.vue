@@ -5,7 +5,7 @@
       <p class="date">{{ dates }} - {{ place }}</p>
       <p>{{ description }}</p>
       <p>{{ technos }}</p>
-      <a class="link" target="_blank" :href="href">www.rgu.ac.uk</a>
+      <a class="link" target="_blank" :href="href">{{ href }}</a>
     </div>
   </div>
 </template>
