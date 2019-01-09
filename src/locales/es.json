@@ -251,7 +251,7 @@
       },
       "used": {
         "title": "Sofwares utilizados",
-        "description": "Photoshop, StarUML, Office, Wireshark"
+        "description": "Photoshop, StarUML, Office, IDA, HxD, Wireshark, CFF Explorer, Scapy"
       }
     },
     "soft": {

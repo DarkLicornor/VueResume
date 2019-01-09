@@ -251,7 +251,7 @@
       },
       "used": {
         "title": "Used software",
-        "description": "Photoshop, StarUML, Office, Wireshark"
+        "description": "Photoshop, StarUML, Office, IDA, HxD, Wireshark, CFF Explorer, Scapy"
       }
     },
     "soft": {
@@ -277,7 +277,7 @@
       "title": "Current course",
       "software": {
         "title": "Software & systems security",
-        "description": "Software vulnerabilities, Reverse engineering, Secure software development, System administration, Viral techniques, Physical attacks and security, Kernel protection"
+        "description": "Software vulnerabilities, Reverse engineering, Secure software development, System administration, Malware spreading and prevention, Physical attacks and security, Kernel protection"
       },
       "network": {
         "title": "Network security",
